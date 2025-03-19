@@ -1,1003 +1,1003 @@
 id,item,type,price
-1,Pear,fruit,51.17
-2,Fig,fruit,67.03
-3,Raspberry,fruit,36.24
-4,Banana,fruit,64.0
-5,Grape,fruit,63.74
-6,Grape,fruit,25.75
-7,Blackberry,fruit,57.18
-8,Dragonfruit,fruit,67.38
-9,Cherry,fruit,78.29
-10,Blueberry,fruit,99.82
-11,Cantaloupe,fruit,90.08
-12,Papaya,fruit,63.8
-13,Cantaloupe,fruit,34.77
-14,Kiwi,fruit,45.36
-15,Pomegranate,fruit,7.97
-16,Pineapple,fruit,4.47
-17,Pear,fruit,88.42
-18,Tangerine,fruit,59.8
-19,Banana,fruit,8.96
-20,Papaya,fruit,47.86
-21,Watermelon,fruit,86.68
-22,Pineapple,fruit,57.24
-23,Banana,fruit,46.86
-24,Blackberry,fruit,69.27
-25,Papaya,fruit,30.47
-26,Fig,fruit,90.52
-27,Watermelon,fruit,67.01
-28,Dragonfruit,fruit,49.3
-29,Plum,fruit,51.67
-30,Strawberry,fruit,79.67
-31,Kiwi,fruit,43.36
-32,Lychee,fruit,49.28
-33,Pear,fruit,56.7
-34,Pomegranate,fruit,92.66
-35,Blackberry,fruit,50.48
-36,Pomegranate,fruit,13.25
-37,Pomegranate,fruit,76.47
-38,Papaya,fruit,71.61
-39,Orange,fruit,11.33
-40,Orange,fruit,2.74
-41,Apricot,fruit,76.81
-42,Plum,fruit,92.37
-43,Banana,fruit,0.16
-44,Blueberry,fruit,40.5
-45,Lychee,fruit,57.22
-46,Papaya,fruit,43.25
-47,Apple,fruit,99.98
-48,Watermelon,fruit,65.62
-49,Date,fruit,19.36
-50,Lychee,fruit,22.07
-51,Tangerine,fruit,6.88
-52,Tangerine,fruit,3.55
-53,Apricot,fruit,99.83
-54,Cherry,fruit,76.42
-55,Blueberry,fruit,29.64
-56,Plum,fruit,78.34
-57,Date,fruit,85.95
-58,Papaya,fruit,76.87
-59,Peach,fruit,10.49
-60,Dragonfruit,fruit,61.27
-61,Papaya,fruit,33.17
-62,Apple,fruit,33.75
-63,Lychee,fruit,96.04
-64,Lychee,fruit,65.55
-65,Pomegranate,fruit,63.42
-66,Raspberry,fruit,31.73
-67,Strawberry,fruit,80.56
-68,Watermelon,fruit,87.35
-69,Fig,fruit,85.38
-70,Apple,fruit,22.12
-71,Raspberry,fruit,95.35
-72,Tangerine,fruit,6.11
-73,Tangerine,fruit,27.67
-74,Date,fruit,82.38
-75,Pomegranate,fruit,73.16
-76,Blueberry,fruit,56.77
-77,Pineapple,fruit,54.94
-78,Lemon,fruit,8.86
-79,Lychee,fruit,5.89
-80,Strawberry,fruit,37.96
-81,Apricot,fruit,90.95
-82,Banana,fruit,63.46
-83,Apple,fruit,95.2
-84,Date,fruit,18.71
-85,Plum,fruit,42.15
-86,Apricot,fruit,61.93
-87,Pineapple,fruit,64.12
-88,Lemon,fruit,56.36
-89,Lemon,fruit,85.89
-90,Papaya,fruit,85.71
-91,Plum,fruit,82.43
-92,Cherry,fruit,7.11
-93,Lemon,fruit,68.04
-94,Date,fruit,13.77
-95,Dragonfruit,fruit,84.39
-96,Dragonfruit,fruit,14.38
-97,Papaya,fruit,96.9
-98,Tangerine,fruit,58.66
-99,Apple,fruit,40.78
-100,Pineapple,fruit,51.95
-101,Lemon,fruit,65.4
-102,Mango,fruit,13.68
-103,Kiwi,fruit,74.98
-104,Mango,fruit,82.71
-105,Banana,fruit,71.47
-106,Plum,fruit,29.93
-107,Fig,fruit,11.53
-108,Tangerine,fruit,84.75
-109,Dragonfruit,fruit,92.47
-110,Cantaloupe,fruit,75.62
-111,Blueberry,fruit,5.21
-112,Fig,fruit,54.66
-113,Tangerine,fruit,56.59
-114,Lychee,fruit,43.39
-115,Date,fruit,90.3
-116,Tangerine,fruit,8.76
-117,Tangerine,fruit,85.55
-118,Tangerine,fruit,23.84
-119,Plum,fruit,45.32
-120,Plum,fruit,84.09
-121,Grape,fruit,85.24
-122,Pear,fruit,63.66
-123,Pineapple,fruit,7.03
-124,Banana,fruit,67.12
-125,Plum,fruit,84.37
-126,Pear,fruit,99.25
-127,Orange,fruit,81.47
-128,Cantaloupe,fruit,61.3
-129,Apricot,fruit,9.71
-130,Raspberry,fruit,15.0
-131,Apricot,fruit,40.66
-132,Raspberry,fruit,88.23
-133,Peach,fruit,3.59
-134,Apple,fruit,20.19
-135,Pear,fruit,85.47
-136,Blueberry,fruit,77.43
-137,Cantaloupe,fruit,79.75
-138,Lychee,fruit,19.89
-139,Lemon,fruit,37.82
-140,Fig,fruit,39.95
-141,Papaya,fruit,67.27
-142,Blackberry,fruit,53.73
-143,Cherry,fruit,87.83
-144,Lemon,fruit,15.13
-145,Peach,fruit,74.21
-146,Mango,fruit,57.92
-147,Raspberry,fruit,93.47
-148,Banana,fruit,42.18
-149,Lychee,fruit,84.49
-150,Peach,fruit,13.37
-151,Raspberry,fruit,8.98
-152,Blackberry,fruit,37.41
-153,Pineapple,fruit,29.08
-154,Blueberry,fruit,31.94
-155,Fig,fruit,38.31
-156,Peach,fruit,53.46
-157,Strawberry,fruit,66.37
-158,Raspberry,fruit,98.41
-159,Banana,fruit,45.7
-160,Peach,fruit,20.64
-161,Banana,fruit,8.88
-162,Orange,fruit,36.8
-163,Apple,fruit,81.04
-164,Pear,fruit,42.66
-165,Apricot,fruit,2.1
-166,Blueberry,fruit,89.51
-167,Blueberry,fruit,96.92
-168,Mushroom,vegetable,87.49
-169,Brussels Sprout,vegetable,82.99
-170,Green Bean,vegetable,38.56
-171,Leek,vegetable,93.79
-172,Leek,vegetable,54.66
-173,Cabbage,vegetable,80.1
-174,Zucchini,vegetable,20.31
-175,Sweet Potato,vegetable,5.42
-176,Cucumber,vegetable,99.18
-177,Sweet Potato,vegetable,47.13
-178,Onion,vegetable,68.69
-179,Potato,vegetable,28.63
-180,Cucumber,vegetable,69.18
-181,Zucchini,vegetable,60.81
-182,Cucumber,vegetable,0.06
-183,Carrot,vegetable,74.69
-184,Potato,vegetable,78.78
-185,Arugula,vegetable,2.69
-186,Turnip,vegetable,16.23
-187,Carrot,vegetable,92.56
-188,Pea,vegetable,81.94
-189,Onion,vegetable,52.63
-190,Cucumber,vegetable,49.71
-191,Brussels Sprout,vegetable,32.01
-192,Onion,vegetable,89.36
-193,Carrot,vegetable,35.83
-194,Zucchini,vegetable,41.76
-195,Artichoke,vegetable,30.64
-196,Eggplant,vegetable,23.36
-197,Spinach,vegetable,89.32
-198,Artichoke,vegetable,51.96
-199,Potato,vegetable,94.09
-200,Arugula,vegetable,83.59
-201,Leek,vegetable,47.05
-202,Broccoli,vegetable,57.05
-203,Spinach,vegetable,64.35
-204,Green Bean,vegetable,15.54
-205,Potato,vegetable,63.58
-206,Pea,vegetable,50.56
-207,Arugula,vegetable,28.17
-208,Radish,vegetable,34.73
-209,Cucumber,vegetable,53.73
-210,Cauliflower,vegetable,66.32
-211,Onion,vegetable,2.07
-212,Sweet Potato,vegetable,19.71
-213,Radish,vegetable,12.39
-214,Artichoke,vegetable,97.77
-215,Kale,vegetable,52.41
-216,Carrot,vegetable,79.53
-217,Kale,vegetable,16.01
-218,Kale,vegetable,38.19
-219,Lettuce,vegetable,55.5
-220,Arugula,vegetable,11.76
-221,Green Bean,vegetable,20.26
-222,Onion,vegetable,21.5
-223,Kale,vegetable,68.82
-224,Cabbage,vegetable,70.3
-225,Zucchini,vegetable,40.07
-226,Turnip,vegetable,25.05
-227,Cauliflower,vegetable,37.26
-228,Turnip,vegetable,53.39
-229,Lettuce,vegetable,5.47
-230,Asparagus,vegetable,9.52
-231,Sweet Potato,vegetable,29.55
-232,Broccoli,vegetable,9.34
-233,Onion,vegetable,73.17
-234,Broccoli,vegetable,66.13
-235,Radish,vegetable,3.86
-236,Jalapeño,vegetable,75.2
-237,Zucchini,vegetable,53.43
-238,Artichoke,vegetable,25.55
-239,Bell Pepper,vegetable,54.39
-240,Cucumber,vegetable,39.65
-241,Zucchini,vegetable,51.79
-242,Carrot,vegetable,61.14
-243,Eggplant,vegetable,4.57
-244,Arugula,vegetable,77.58
-245,Tomato,vegetable,72.6
-246,Cucumber,vegetable,26.88
-247,Cucumber,vegetable,7.15
-248,Celery,vegetable,66.57
-249,Artichoke,vegetable,89.28
-250,Lettuce,vegetable,79.95
-251,Cauliflower,vegetable,10.93
-252,Cucumber,vegetable,62.97
-253,Bell Pepper,vegetable,91.51
-254,Cucumber,vegetable,81.34
-255,Pea,vegetable,67.06
-256,Potato,vegetable,56.73
-257,Broccoli,vegetable,47.23
-258,Carrot,vegetable,94.84
-259,Potato,vegetable,49.57
-260,Carrot,vegetable,91.82
-261,Mushroom,vegetable,68.6
-262,Beet,vegetable,11.64
-263,Sweet Potato,vegetable,27.4
-264,Potato,vegetable,12.05
-265,Lettuce,vegetable,73.25
-266,Beet,vegetable,79.31
-267,Spinach,vegetable,62.97
-268,Artichoke,vegetable,92.62
-269,Pea,vegetable,56.84
-270,Cucumber,vegetable,88.08
-271,Jalapeño,vegetable,4.26
-272,Sweet Potato,vegetable,39.24
-273,Turnip,vegetable,34.38
-274,Tomato,vegetable,34.36
-275,Onion,vegetable,76.74
-276,Celery,vegetable,97.34
-277,Jalapeño,vegetable,12.81
-278,Turnip,vegetable,72.34
-279,Pea,vegetable,45.01
-280,Spinach,vegetable,43.47
-281,Leek,vegetable,71.94
-282,Pea,vegetable,19.69
-283,Sweet Potato,vegetable,93.59
-284,Asparagus,vegetable,17.22
-285,Asparagus,vegetable,41.97
-286,Bell Pepper,vegetable,38.58
-287,Cabbage,vegetable,55.38
-288,Tomato,vegetable,48.63
-289,Broccoli,vegetable,23.59
-290,Leek,vegetable,7.59
-291,Garlic,vegetable,64.63
-292,Lettuce,vegetable,91.4
-293,Green Bean,vegetable,43.32
-294,Brussels Sprout,vegetable,95.21
-295,Garlic,vegetable,92.88
-296,Broccoli,vegetable,33.14
-297,Celery,vegetable,85.88
-298,Carrot,vegetable,91.02
-299,Beet,vegetable,36.19
-300,Cucumber,vegetable,25.81
-301,Kale,vegetable,48.6
-302,Celery,vegetable,23.17
-303,Green Bean,vegetable,29.23
-304,Arugula,vegetable,60.55
-305,Brussels Sprout,vegetable,52.13
-306,Carrot,vegetable,7.52
-307,Artichoke,vegetable,29.64
-308,Onion,vegetable,50.99
-309,Lettuce,vegetable,43.02
-310,Tomato,vegetable,56.07
-311,Lettuce,vegetable,62.83
-312,Beet,vegetable,16.84
-313,Mushroom,vegetable,19.5
-314,Zucchini,vegetable,61.82
-315,Asparagus,vegetable,11.46
-316,Cucumber,vegetable,60.32
-317,Eggplant,vegetable,70.45
-318,Pea,vegetable,69.19
-319,Garlic,vegetable,70.19
-320,Kale,vegetable,15.3
-321,Celery,vegetable,46.0
-322,Jalapeño,vegetable,42.52
-323,Arugula,vegetable,48.29
-324,Arugula,vegetable,76.8
-325,Cauliflower,vegetable,99.3
-326,Bell Pepper,vegetable,27.87
-327,Bell Pepper,vegetable,91.47
-328,Zucchini,vegetable,90.28
-329,Celery,vegetable,74.98
-330,Carrot,vegetable,4.44
-331,Cucumber,vegetable,72.11
-332,Potato,vegetable,24.49
-333,Asparagus,vegetable,78.06
-334,Broccoli,vegetable,84.25
-335,Parmesan,dairy,2.7
-336,Heavy Cream,dairy,46.26
-337,Goat,dairy,26.87
-338,Cream Cheese,dairy,79.6
-339,Eggs,dairy,31.08
-340,Butter,dairy,13.88
-341,Blue,dairy,49.51
-342,Blue,dairy,76.24
-343,Swiss,dairy,41.76
-344,Blue,dairy,93.87
-345,Butter,dairy,46.9
-346,Whipped Cream,dairy,89.49
-347,Ricotta,dairy,89.73
-348,Blue,dairy,32.96
-349,Cream Cheese,dairy,51.83
-350,Ice Cream,dairy,29.74
-351,Feta,dairy,30.74
-352,Goat,dairy,9.68
-353,Parmesan,dairy,53.29
-354,Eggs,dairy,19.35
-355,Parmesan,dairy,61.62
-356,Parmesan,dairy,74.04
-357,Greek Yogurt,dairy,64.14
-358,Cream Cheese,dairy,27.63
-359,Eggs,dairy,9.75
-360,Butter,dairy,27.95
-361,Blue,dairy,33.94
-362,Ice Cream,dairy,88.93
-363,Brie,dairy,32.37
-364,Ricotta,dairy,45.41
-365,Eggs,dairy,32.18
-366,Blue,dairy,4.71
-367,Heavy Cream,dairy,76.67
-368,Cream Cheese,dairy,33.78
-369,Swiss,dairy,67.01
-370,Whipped Cream,dairy,32.73
-371,Eggs,dairy,66.58
-372,Heavy Cream,dairy,62.25
-373,Blue,dairy,36.43
-374,Swiss,dairy,4.22
-375,Provolone,dairy,81.45
-376,Yogurt,dairy,35.53
-377,Provolone,dairy,6.68
-378,Brie,dairy,28.1
-379,Milk,dairy,64.67
-380,Swiss,dairy,92.77
-381,Cheddar,dairy,33.71
-382,Milk,dairy,56.2
-383,Greek Yogurt,dairy,94.34
-384,Parmesan,dairy,63.97
-385,Cheddar,dairy,45.43
-386,Feta,dairy,51.1
-387,Brie,dairy,31.12
-388,Swiss,dairy,0.13
-389,Eggs,dairy,7.07
-390,Ice Cream,dairy,16.2
-391,Blue,dairy,63.28
-392,Whipped Cream,dairy,66.74
-393,Provolone,dairy,95.01
-394,Ricotta,dairy,53.18
-395,Cheddar,dairy,58.96
-396,Heavy Cream,dairy,2.04
-397,Whipped Cream,dairy,37.22
-398,Provolone,dairy,3.78
-399,Whipped Cream,dairy,20.57
-400,Heavy Cream,dairy,14.75
-401,Parmesan,dairy,13.68
-402,Swiss,dairy,83.41
-403,Milk,dairy,79.48
-404,Goat,dairy,44.34
-405,Milk,dairy,90.85
-406,Feta,dairy,1.15
-407,Brie,dairy,54.62
-408,Swiss,dairy,22.94
-409,Milk,dairy,40.24
-410,Sour Cream,dairy,33.94
-411,Mozzarella,dairy,96.28
-412,Ice Cream,dairy,89.45
-413,Parmesan,dairy,84.25
-414,Yogurt,dairy,24.45
-415,Eggs,dairy,73.16
-416,Swiss,dairy,31.41
-417,Cheddar,dairy,35.17
-418,Sour Cream,dairy,29.26
-419,Cream Cheese,dairy,92.86
-420,Greek Yogurt,dairy,13.78
-421,Feta,dairy,31.5
-422,Ricotta,dairy,19.23
-423,Yogurt,dairy,73.38
-424,Heavy Cream,dairy,51.03
-425,Provolone,dairy,91.47
-426,Ricotta,dairy,40.89
-427,Yogurt,dairy,16.88
-428,Ricotta,dairy,35.58
-429,Goat,dairy,81.0
-430,Heavy Cream,dairy,12.73
-431,Greek Yogurt,dairy,36.58
-432,Yogurt,dairy,3.6
-433,Eggs,dairy,74.14
-434,Yogurt,dairy,36.12
-435,Greek Yogurt,dairy,55.91
-436,Blue,dairy,33.34
-437,Blue,dairy,55.29
-438,Whipped Cream,dairy,64.69
-439,Parmesan,dairy,20.01
-440,Mozzarella,dairy,8.17
-441,Brie,dairy,39.51
-442,Swiss,dairy,42.07
-443,Cheddar,dairy,17.79
-444,Ricotta,dairy,9.14
-445,Eggs,dairy,22.37
-446,Mozzarella,dairy,59.22
-447,Goat,dairy,61.5
-448,Mozzarella,dairy,44.3
-449,Brie,dairy,18.9
-450,Milk,dairy,81.03
-451,Ice Cream,dairy,73.59
-452,Eggs,dairy,24.12
-453,Feta,dairy,20.47
-454,Whipped Cream,dairy,41.78
-455,Whipped Cream,dairy,8.75
-456,Feta,dairy,90.02
-457,Greek Yogurt,dairy,44.66
-458,Swiss,dairy,44.97
-459,Ricotta,dairy,93.44
-460,Milk,dairy,55.06
-461,Butter,dairy,23.88
-462,Butter,dairy,75.06
-463,Swiss,dairy,54.86
-464,Butter,dairy,84.59
-465,Provolone,dairy,79.68
-466,Butter,dairy,60.97
-467,Blue,dairy,96.37
-468,Yogurt,dairy,93.54
-469,Ice Cream,dairy,49.55
-470,Feta,dairy,79.42
-471,Milk,dairy,38.61
-472,Heavy Cream,dairy,55.26
-473,Sour Cream,dairy,51.86
-474,Goat,dairy,55.3
-475,Butter,dairy,1.45
-476,Heavy Cream,dairy,55.21
-477,Blue,dairy,8.19
-478,Goat,dairy,22.55
-479,Cream Cheese,dairy,1.69
-480,Ice Cream,dairy,10.95
-481,Feta,dairy,97.69
-482,Provolone,dairy,63.51
-483,Mozzarella,dairy,46.37
-484,Mozzarella,dairy,99.78
-485,Parmesan,dairy,48.33
-486,Feta,dairy,96.01
-487,Heavy Cream,dairy,50.04
-488,Mozzarella,dairy,98.82
-489,Sour Cream,dairy,32.4
-490,Brie,dairy,81.79
-491,Butter,dairy,4.81
-492,Greek Yogurt,dairy,71.57
-493,Cream Cheese,dairy,98.28
-494,Eggs,dairy,92.09
-495,Goat,dairy,42.58
-496,Greek Yogurt,dairy,20.2
-497,Eggs,dairy,12.54
-498,Swiss,dairy,83.45
-499,Provolone,dairy,29.51
-500,Cream Cheese,dairy,35.01
-501,Milk,dairy,70.27
-502,Venison,meat,0.8
-503,Mutton,meat,42.35
-504,Lamb,meat,48.27
-505,Rabbit,meat,84.13
-506,Bison,meat,35.19
-507,Chicken,meat,91.16
-508,Rabbit,meat,4.56
-509,Ham,meat,88.6
-510,Beef,meat,24.4
-511,Bacon,meat,49.21
-512,Beef,meat,23.12
-513,Veal,meat,79.95
-514,Ham,meat,72.1
-515,Salami,meat,72.34
-516,Bacon,meat,81.08
-517,Veal,meat,8.02
-518,Salami,meat,34.74
-519,Rabbit,meat,21.04
-520,Mutton,meat,28.89
-521,Bacon,meat,6.03
-522,Chicken,meat,89.92
-523,Bison,meat,50.56
-524,Chicken,meat,66.33
-525,Lamb,meat,84.45
-526,Beef,meat,59.01
-527,Bison,meat,38.98
-528,Mutton,meat,69.68
-529,Bacon,meat,66.04
-530,Goat,meat,45.68
-531,Bison,meat,67.73
-532,Mutton,meat,9.77
-533,Lamb,meat,83.07
-534,Ham,meat,40.38
-535,Ham,meat,75.03
-536,Sausage,meat,39.83
-537,Bison,meat,75.25
-538,Mutton,meat,56.47
-539,Rabbit,meat,3.28
-540,Salami,meat,68.49
-541,Turkey,meat,20.73
-542,Bacon,meat,21.08
-543,Bacon,meat,4.77
-544,Veal,meat,16.97
-545,Turkey,meat,65.54
-546,Beef,meat,90.99
-547,Rabbit,meat,64.8
-548,Lamb,meat,41.76
-549,Beef,meat,88.45
-550,Turkey,meat,7.15
-551,Veal,meat,76.09
-552,Duck,meat,79.35
-553,Ham,meat,21.81
-554,Venison,meat,8.54
-555,Mutton,meat,43.8
-556,Chicken,meat,51.42
-557,Rabbit,meat,66.95
-558,Venison,meat,95.44
-559,Ham,meat,14.93
-560,Goat,meat,7.23
-561,Veal,meat,15.47
-562,Turkey,meat,75.32
-563,Beef,meat,53.6
-564,Bison,meat,56.45
-565,Lamb,meat,56.22
-566,Ham,meat,66.06
-567,Turkey,meat,36.65
-568,Duck,meat,49.82
-569,Lamb,meat,57.41
-570,Chicken,meat,77.77
-571,Salami,meat,76.11
-572,Turkey,meat,57.41
-573,Duck,meat,15.73
-574,Veal,meat,10.42
-575,Sausage,meat,49.38
-576,Lamb,meat,48.57
-577,Duck,meat,76.18
-578,Goat,meat,64.29
-579,Beef,meat,24.5
-580,Beef,meat,37.15
-581,Beef,meat,7.85
-582,Venison,meat,42.12
-583,Venison,meat,31.51
-584,Ham,meat,10.88
-585,Pork,meat,16.72
-586,Lamb,meat,45.31
-587,Turkey,meat,28.26
-588,Salami,meat,47.31
-589,Venison,meat,61.37
-590,Rabbit,meat,63.21
-591,Veal,meat,98.94
-592,Goat,meat,7.47
-593,Lamb,meat,32.87
-594,Lamb,meat,80.59
-595,Chicken,meat,2.56
-596,Duck,meat,56.33
-597,Ham,meat,14.79
-598,Veal,meat,51.31
-599,Lamb,meat,17.39
-600,Chicken,meat,67.11
-601,Goat,meat,30.33
-602,Turkey,meat,67.43
-603,Sausage,meat,29.08
-604,Ham,meat,80.88
-605,Lamb,meat,77.59
-606,Bison,meat,70.01
-607,Salami,meat,78.22
-608,Goat,meat,64.05
-609,Ham,meat,62.07
-610,Bison,meat,88.62
-611,Chicken,meat,79.0
-612,Veal,meat,33.89
-613,Turkey,meat,10.41
-614,Sausage,meat,37.3
-615,Turkey,meat,5.58
-616,Salami,meat,43.29
-617,Goat,meat,27.98
-618,Lamb,meat,49.17
-619,Goat,meat,31.3
-620,Beef,meat,35.15
-621,Rabbit,meat,93.2
-622,Lamb,meat,7.69
-623,Beef,meat,95.7
-624,Sausage,meat,94.95
-625,Mutton,meat,68.71
-626,Lamb,meat,41.29
-627,Rabbit,meat,9.18
-628,Lamb,meat,20.7
-629,Mutton,meat,50.5
-630,Veal,meat,32.42
-631,Veal,meat,29.0
-632,Duck,meat,58.78
-633,Salami,meat,42.4
-634,Lamb,meat,80.37
-635,Rabbit,meat,3.36
-636,Sausage,meat,17.37
-637,Beef,meat,14.07
-638,Duck,meat,46.01
-639,Beef,meat,2.06
-640,Venison,meat,42.41
-641,Duck,meat,65.19
-642,Duck,meat,92.22
-643,Bison,meat,72.44
-644,Goat,meat,38.89
-645,Bacon,meat,74.93
-646,Salami,meat,67.98
-647,Ham,meat,76.6
-648,Sausage,meat,41.4
-649,Bison,meat,94.89
-650,Mutton,meat,28.31
-651,Duck,meat,52.29
-652,Goat,meat,86.44
-653,Sausage,meat,96.19
-654,Mutton,meat,17.81
-655,Veal,meat,38.5
-656,Venison,meat,60.65
-657,Chicken,meat,65.86
-658,Chicken,meat,79.75
-659,Pork,meat,59.45
-660,Venison,meat,13.08
-661,Bison,meat,34.75
-662,Bacon,meat,29.63
-663,Mutton,meat,40.17
-664,Mutton,meat,34.06
-665,Rabbit,meat,41.41
-666,Sausage,meat,33.68
-667,Venison,meat,17.83
-668,Duck,meat,18.25
-669,Crab,seafood,20.62
-670,Salmon,seafood,29.8
-671,Clam,seafood,27.42
-672,Oyster,seafood,82.77
-673,Sardine,seafood,29.57
-674,Swordfish,seafood,77.01
-675,Haddock,seafood,59.38
-676,Oyster,seafood,69.42
-677,Bass,seafood,67.73
-678,Salmon,seafood,76.51
-679,Haddock,seafood,79.98
-680,Snapper,seafood,4.06
-681,Oyster,seafood,25.96
-682,Anchovy,seafood,33.79
-683,Mussel,seafood,94.3
-684,Snapper,seafood,64.71
-685,Oyster,seafood,67.2
-686,Haddock,seafood,61.16
-687,Grouper,seafood,5.13
-688,Haddock,seafood,59.53
-689,Octopus,seafood,55.96
-690,Swordfish,seafood,87.71
-691,Scallop,seafood,51.24
-692,Octopus,seafood,28.62
-693,Octopus,seafood,48.58
-694,Grouper,seafood,59.71
-695,Octopus,seafood,37.16
-696,Swordfish,seafood,64.79
-697,Grouper,seafood,43.38
-698,Snapper,seafood,58.54
-699,Salmon,seafood,51.37
-700,Shrimp,seafood,22.77
-701,Haddock,seafood,22.55
-702,Haddock,seafood,63.56
-703,Halibut,seafood,19.24
-704,Prawn,seafood,30.78
-705,Bass,seafood,37.27
-706,Prawn,seafood,56.34
-707,Prawn,seafood,24.83
-708,Squid,seafood,25.73
-709,Sardine,seafood,65.39
-710,Sardine,seafood,20.83
-711,Pollock,seafood,80.52
-712,Crab,seafood,84.64
-713,Trout,seafood,83.74
-714,Halibut,seafood,60.79
-715,Swordfish,seafood,28.88
-716,Squid,seafood,68.42
-717,Sardine,seafood,14.74
-718,Grouper,seafood,77.43
-719,Halibut,seafood,40.76
-720,Pollock,seafood,72.9
-721,Halibut,seafood,8.47
-722,Tuna,seafood,14.02
-723,Scallop,seafood,95.73
-724,Oyster,seafood,49.07
-725,Sardine,seafood,41.49
-726,Octopus,seafood,0.19
-727,Shrimp,seafood,13.12
-728,Crab,seafood,12.08
-729,Lobster,seafood,73.38
-730,Haddock,seafood,22.49
-731,Trout,seafood,48.63
-732,Swordfish,seafood,23.8
-733,Grouper,seafood,23.84
-734,Cod,seafood,22.85
-735,Octopus,seafood,30.86
-736,Salmon,seafood,1.04
-737,Squid,seafood,13.28
-738,Clam,seafood,0.06
-739,Halibut,seafood,30.71
-740,Scallop,seafood,68.81
-741,Trout,seafood,8.84
-742,Trout,seafood,72.0
-743,Anchovy,seafood,50.73
-744,Clam,seafood,37.4
-745,Clam,seafood,58.29
-746,Oyster,seafood,46.21
-747,Lobster,seafood,62.67
-748,Anchovy,seafood,74.32
-749,Snapper,seafood,82.6
-750,Crab,seafood,16.67
-751,Trout,seafood,55.15
-752,Shrimp,seafood,21.18
-753,Prawn,seafood,96.0
-754,Clam,seafood,90.73
-755,Oyster,seafood,89.53
-756,Crab,seafood,41.24
-757,Mussel,seafood,42.52
-758,Crab,seafood,25.2
-759,Bass,seafood,83.97
-760,Cod,seafood,22.81
-761,Crab,seafood,79.82
-762,Tuna,seafood,70.4
-763,Lobster,seafood,39.92
-764,Swordfish,seafood,99.23
-765,Swordfish,seafood,67.8
-766,Prawn,seafood,18.02
-767,Pollock,seafood,51.49
-768,Squid,seafood,19.53
-769,Clam,seafood,91.31
-770,Halibut,seafood,30.32
-771,Trout,seafood,55.83
-772,Trout,seafood,83.67
-773,Swordfish,seafood,22.62
-774,Squid,seafood,85.35
-775,Crab,seafood,71.54
-776,Pollock,seafood,47.54
-777,Bass,seafood,10.71
-778,Swordfish,seafood,90.23
-779,Shrimp,seafood,60.11
-780,Salmon,seafood,51.13
-781,Octopus,seafood,61.73
-782,Anchovy,seafood,93.22
-783,Pollock,seafood,71.04
-784,Scallop,seafood,82.19
-785,Prawn,seafood,54.47
-786,Scallop,seafood,12.83
-787,Sardine,seafood,77.75
-788,Mussel,seafood,2.47
-789,Oyster,seafood,57.06
-790,Sardine,seafood,32.31
-791,Oyster,seafood,72.56
-792,Halibut,seafood,64.47
-793,Swordfish,seafood,9.07
-794,Lobster,seafood,45.28
-795,Haddock,seafood,78.41
-796,Bass,seafood,54.39
-797,Squid,seafood,74.96
-798,Salmon,seafood,30.99
-799,Lobster,seafood,34.82
-800,Trout,seafood,76.74
-801,Mussel,seafood,98.26
-802,Grouper,seafood,74.61
-803,Octopus,seafood,55.26
-804,Halibut,seafood,98.69
-805,Mussel,seafood,56.04
-806,Mussel,seafood,2.68
-807,Scallop,seafood,86.63
-808,Clam,seafood,83.49
-809,Pollock,seafood,6.95
-810,Trout,seafood,61.46
-811,Sardine,seafood,77.71
-812,Trout,seafood,28.91
-813,Trout,seafood,10.02
-814,Sardine,seafood,52.49
-815,Oyster,seafood,14.61
-816,Pollock,seafood,89.1
-817,Scallop,seafood,82.25
-818,Trout,seafood,21.99
-819,Crab,seafood,44.07
-820,Anchovy,seafood,84.29
-821,Mussel,seafood,10.69
-822,Scallop,seafood,89.18
-823,Halibut,seafood,98.7
-824,Bass,seafood,63.9
-825,Halibut,seafood,96.79
-826,Squid,seafood,45.75
-827,Haddock,seafood,15.54
-828,Grouper,seafood,29.89
-829,Bass,seafood,44.0
-830,Pollock,seafood,20.92
-831,Tuna,seafood,4.58
-832,Anchovy,seafood,22.15
-833,Clam,seafood,13.03
-834,Clam,seafood,21.43
-835,Tuna,seafood,72.14
-836,Rye,bread,45.59
-837,Naan,bread,29.26
-838,Whole Wheat,bread,98.82
-839,Sourdough,bread,17.03
-840,Kaiser Roll,bread,5.14
-841,Ciabatta,bread,50.77
-842,Baguette,bread,35.05
-843,Sub Roll,bread,0.26
-844,Ciabatta Roll,bread,39.09
-845,English Muffin,bread,13.5
-846,Naan,bread,62.88
-847,Sourdough,bread,93.71
-848,Sub Roll,bread,93.82
-849,Whole Wheat,bread,41.93
-850,Sub Roll,bread,27.41
-851,Kaiser Roll,bread,24.91
-852,Texas Toast,bread,48.51
-853,Bagel,bread,43.46
-854,Baguette,bread,38.82
-855,Kaiser Roll,bread,25.98
-856,Bagel,bread,81.9
-857,Baguette,bread,45.71
-858,Focaccia,bread,93.04
-859,Whole Wheat,bread,63.82
-860,Baguette,bread,92.01
-861,Bagel,bread,41.58
-862,Ciabatta Roll,bread,25.47
-863,Bagel,bread,58.16
-864,Bagel,bread,40.52
-865,Hoagie Roll,bread,66.54
-866,Ciabatta,bread,88.8
-867,White,bread,85.98
-868,Ciabatta,bread,81.55
-869,Ciabatta Roll,bread,8.17
-870,Bagel,bread,8.39
-871,Focaccia,bread,63.81
-872,Sub Roll,bread,97.45
-873,Naan,bread,38.7
-874,Pita,bread,6.54
-875,Naan,bread,11.5
-876,Flatbread,bread,67.33
-877,Pita,bread,76.83
-878,Focaccia,bread,93.88
-879,Hoagie Roll,bread,69.58
-880,Sourdough,bread,68.8
-881,Brioche,bread,49.15
-882,Ciabatta,bread,69.25
-883,Flatbread,bread,57.55
-884,Bagel,bread,71.99
-885,Hoagie Roll,bread,79.9
-886,Baguette,bread,11.16
-887,Brioche,bread,50.74
-888,Ciabatta,bread,63.08
-889,Brioche,bread,59.13
-890,Sub Roll,bread,27.71
-891,Tortilla,bread,97.04
-892,English Muffin,bread,60.31
-893,Naan,bread,4.3
-894,Multigrain,bread,72.21
-895,Sub Roll,bread,10.79
-896,Texas Toast,bread,59.6
-897,Baguette,bread,70.02
-898,Ciabatta,bread,15.75
-899,Focaccia,bread,70.51
-900,White,bread,24.95
-901,Focaccia,bread,79.76
-902,Flatbread,bread,99.09
-903,English Muffin,bread,7.66
-904,Sub Roll,bread,58.85
-905,Baguette,bread,98.68
-906,Brioche,bread,34.83
-907,Rye,bread,65.12
-908,Sourdough,bread,79.65
-909,Flatbread,bread,66.14
-910,Bagel,bread,65.79
-911,Focaccia,bread,61.35
-912,Rye,bread,18.22
-913,Brioche,bread,56.98
-914,Tortilla,bread,90.22
-915,Flatbread,bread,21.8
-916,Focaccia,bread,18.02
-917,Whole Wheat,bread,46.31
-918,Pita,bread,38.53
-919,Multigrain,bread,39.55
-920,English Muffin,bread,21.16
-921,Tortilla,bread,30.79
-922,Tortilla,bread,27.09
-923,Multigrain,bread,14.1
-924,Ciabatta Roll,bread,86.53
-925,Naan,bread,21.03
-926,Pita,bread,54.33
-927,Sourdough,bread,56.41
-928,Brioche,bread,80.23
-929,Brioche,bread,63.42
-930,Ciabatta,bread,58.67
-931,English Muffin,bread,59.5
-932,Pita,bread,53.3
-933,Texas Toast,bread,29.79
-934,Multigrain,bread,55.4
-935,Hoagie Roll,bread,58.68
-936,Hoagie Roll,bread,21.84
-937,Sub Roll,bread,56.47
-938,Ciabatta,bread,80.29
-939,Flatbread,bread,85.38
-940,English Muffin,bread,59.76
-941,Texas Toast,bread,15.31
-942,Ciabatta,bread,82.47
-943,Ciabatta,bread,33.43
-944,White,bread,92.59
-945,Whole Wheat,bread,24.55
-946,Ciabatta Roll,bread,95.13
-947,Kaiser Roll,bread,80.19
-948,Baguette,bread,15.61
-949,Pita,bread,89.71
-950,Tortilla,bread,40.05
-951,Hoagie Roll,bread,3.13
-952,Pita,bread,28.13
-953,Sourdough,bread,72.9
-954,Naan,bread,45.16
-955,Rye,bread,69.55
-956,Ciabatta Roll,bread,98.13
-957,Flatbread,bread,98.58
-958,Sub Roll,bread,99.0
-959,Ciabatta Roll,bread,53.63
-960,Multigrain,bread,2.6
-961,Flatbread,bread,69.16
-962,White,bread,27.14
-963,Whole Wheat,bread,43.8
-964,Ciabatta Roll,bread,12.19
-965,Ciabatta,bread,93.37
-966,Sub Roll,bread,40.4
-967,Sub Roll,bread,14.9
-968,Hoagie Roll,bread,6.6
-969,Sourdough,bread,85.73
-970,Naan,bread,94.51
-971,Brioche,bread,11.99
-972,Sub Roll,bread,11.35
-973,Flatbread,bread,60.03
-974,Ciabatta,bread,11.3
-975,English Muffin,bread,49.42
-976,Sub Roll,bread,93.36
-977,Ciabatta,bread,10.46
-978,Flatbread,bread,97.82
-979,Hoagie Roll,bread,47.54
-980,Rye,bread,45.43
-981,English Muffin,bread,74.09
-982,Ciabatta Roll,bread,40.01
-983,Focaccia,bread,5.27
-984,Tortilla,bread,20.48
-985,Texas Toast,bread,34.98
-986,Ciabatta Roll,bread,24.38
-987,Baguette,bread,89.6
-988,Ciabatta Roll,bread,11.72
-989,Naan,bread,50.8
-990,White,bread,98.67
-991,Hoagie Roll,bread,5.05
-992,Ciabatta,bread,78.14
-993,Flatbread,bread,79.9
-994,Sub Roll,bread,99.01
-995,Tortilla,bread,29.53
-996,Naan,bread,43.83
-997,Brioche,bread,3.05
-998,Bagel,bread,3.19
-999,Tortilla,bread,86.47
-1000,Naan,bread,92.38
-1001,Flatbread,bread,96.01
-1002,Multigrain,bread,75.72
+1,Raspberry,Fruit,75.69
+2,Kiwi,Fruit,45.3
+3,Apricot,Fruit,86.28
+4,Strawberry,Fruit,28.35
+5,Grape,Fruit,91.39
+6,Pear,Fruit,3.96
+7,Watermelon,Fruit,37.05
+8,Blueberry,Fruit,66.87
+9,Apricot,Fruit,87.05
+10,Kiwi,Fruit,43.23
+11,Pineapple,Fruit,57.5
+12,Blackberry,Fruit,14.21
+13,Apple,Fruit,67.11
+14,Orange,Fruit,15.41
+15,Peach,Fruit,47.3
+16,Lychee,Fruit,88.54
+17,Watermelon,Fruit,68.55
+18,Orange,Fruit,35.39
+19,Apple,Fruit,83.58
+20,Pineapple,Fruit,18.4
+21,Pineapple,Fruit,47.61
+22,Pomegranate,Fruit,50.07
+23,Pomegranate,Fruit,70.97
+24,Pomegranate,Fruit,9.28
+25,Watermelon,Fruit,70.9
+26,Blueberry,Fruit,50.12
+27,Papaya,Fruit,19.42
+28,Raspberry,Fruit,8.16
+29,Peach,Fruit,74.61
+30,Lychee,Fruit,59.35
+31,Cherry,Fruit,56.75
+32,Banana,Fruit,3.05
+33,Kiwi,Fruit,0.6
+34,Papaya,Fruit,37.93
+35,Apricot,Fruit,21.27
+36,Strawberry,Fruit,80.5
+37,Raspberry,Fruit,62.38
+38,Watermelon,Fruit,67.8
+39,Watermelon,Fruit,42.73
+40,Pomegranate,Fruit,38.38
+41,Cherry,Fruit,41.02
+42,Plum,Fruit,55.25
+43,Fig,Fruit,88.53
+44,Papaya,Fruit,21.31
+45,Banana,Fruit,74.5
+46,Orange,Fruit,92.24
+47,Cherry,Fruit,83.59
+48,Mango,Fruit,75.97
+49,Lemon,Fruit,74.73
+50,Papaya,Fruit,9.55
+51,Cantaloupe,Fruit,76.65
+52,Pineapple,Fruit,45.98
+53,Blackberry,Fruit,83.18
+54,Banana,Fruit,59.29
+55,Banana,Fruit,57.44
+56,Apple,Fruit,3.6
+57,Pear,Fruit,27.27
+58,Pineapple,Fruit,1.17
+59,Papaya,Fruit,4.36
+60,Blueberry,Fruit,32.35
+61,Papaya,Fruit,38.64
+62,Lychee,Fruit,36.8
+63,Orange,Fruit,71.27
+64,Watermelon,Fruit,84.14
+65,Plum,Fruit,94.08
+66,Raspberry,Fruit,76.66
+67,Apricot,Fruit,15.43
+68,Lemon,Fruit,94.11
+69,Lemon,Fruit,42.92
+70,Apricot,Fruit,7.24
+71,Lychee,Fruit,61.12
+72,Date,Fruit,17.4
+73,Lychee,Fruit,10.32
+74,Papaya,Fruit,6.29
+75,Blackberry,Fruit,41.42
+76,Blueberry,Fruit,52.03
+77,Lychee,Fruit,5.56
+78,Lemon,Fruit,17.78
+79,Blackberry,Fruit,67.02
+80,Cherry,Fruit,52.68
+81,Lychee,Fruit,89.12
+82,Date,Fruit,62.24
+83,Pear,Fruit,30.9
+84,Apricot,Fruit,16.8
+85,Date,Fruit,90.2
+86,Peach,Fruit,30.61
+87,Strawberry,Fruit,1.68
+88,Mango,Fruit,41.39
+89,Strawberry,Fruit,50.7
+90,Date,Fruit,97.18
+91,Grape,Fruit,12.92
+92,Apple,Fruit,48.16
+93,Plum,Fruit,54.93
+94,Blueberry,Fruit,56.38
+95,Banana,Fruit,70.59
+96,Raspberry,Fruit,61.51
+97,Blackberry,Fruit,16.93
+98,Pineapple,Fruit,54.41
+99,Pomegranate,Fruit,1.13
+100,Lychee,Fruit,12.29
+101,Pineapple,Fruit,0.96
+102,Apple,Fruit,8.36
+103,Blackberry,Fruit,67.31
+104,Apricot,Fruit,84.27
+105,Date,Fruit,32.93
+106,Kiwi,Fruit,69.43
+107,Orange,Fruit,82.88
+108,Grape,Fruit,23.5
+109,Papaya,Fruit,22.36
+110,Lemon,Fruit,20.38
+111,Fig,Fruit,96.59
+112,Kiwi,Fruit,60.46
+113,Pineapple,Fruit,23.66
+114,Kiwi,Fruit,84.25
+115,Blueberry,Fruit,18.23
+116,Apple,Fruit,97.15
+117,Tangerine,Fruit,5.16
+118,Pineapple,Fruit,94.35
+119,Lychee,Fruit,80.59
+120,Blackberry,Fruit,94.79
+121,Strawberry,Fruit,46.38
+122,Cherry,Fruit,72.64
+123,Lemon,Fruit,91.95
+124,Plum,Fruit,11.33
+125,Strawberry,Fruit,54.14
+126,Orange,Fruit,74.34
+127,Lemon,Fruit,47.86
+128,Cantaloupe,Fruit,69.58
+129,Cantaloupe,Fruit,67.86
+130,Pomegranate,Fruit,87.35
+131,Peach,Fruit,72.64
+132,Tangerine,Fruit,28.19
+133,Strawberry,Fruit,31.64
+134,Raspberry,Fruit,3.04
+135,Watermelon,Fruit,3.92
+136,Pineapple,Fruit,96.29
+137,Tangerine,Fruit,94.16
+138,Date,Fruit,8.99
+139,Banana,Fruit,39.61
+140,Grape,Fruit,13.57
+141,Peach,Fruit,48.8
+142,Papaya,Fruit,35.8
+143,Pomegranate,Fruit,14.96
+144,Mango,Fruit,58.5
+145,Mango,Fruit,26.31
+146,Lychee,Fruit,11.09
+147,Date,Fruit,0.11
+148,Mango,Fruit,63.24
+149,Lychee,Fruit,41.62
+150,Pineapple,Fruit,47.43
+151,Apple,Fruit,69.58
+152,Apple,Fruit,26.22
+153,Pear,Fruit,17.55
+154,Pineapple,Fruit,15.54
+155,Strawberry,Fruit,97.22
+156,Fig,Fruit,3.3
+157,Mango,Fruit,29.04
+158,Mango,Fruit,61.63
+159,Pear,Fruit,73.56
+160,Orange,Fruit,0.95
+161,Kiwi,Fruit,56.6
+162,Kiwi,Fruit,65.8
+163,Banana,Fruit,3.62
+164,Strawberry,Fruit,0.42
+165,Pomegranate,Fruit,22.45
+166,Blueberry,Fruit,40.89
+167,Pineapple,Fruit,93.65
+168,Lettuce,Vegetable,25.37
+169,Kale,Vegetable,62.14
+170,Brussels Sprout,Vegetable,88.14
+171,Celery,Vegetable,86.07
+172,Asparagus,Vegetable,79.09
+173,Cucumber,Vegetable,20.08
+174,Mushroom,Vegetable,89.48
+175,Lettuce,Vegetable,71.63
+176,Cabbage,Vegetable,69.22
+177,Leek,Vegetable,53.43
+178,Bell Pepper,Vegetable,14.06
+179,Artichoke,Vegetable,27.1
+180,Artichoke,Vegetable,20.32
+181,Lettuce,Vegetable,17.32
+182,Zucchini,Vegetable,22.65
+183,Carrot,Vegetable,78.76
+184,Brussels Sprout,Vegetable,64.44
+185,Potato,Vegetable,13.79
+186,Broccoli,Vegetable,48.6
+187,Radish,Vegetable,67.05
+188,Lettuce,Vegetable,40.24
+189,Leek,Vegetable,37.06
+190,Broccoli,Vegetable,3.59
+191,Artichoke,Vegetable,59.05
+192,Sweet Potato,Vegetable,97.46
+193,Pea,Vegetable,88.29
+194,Jalapeï¿½o,Vegetable,15.97
+195,Turnip,Vegetable,24.69
+196,Artichoke,Vegetable,44.06
+197,Green Bean,Vegetable,70.7
+198,Lettuce,Vegetable,3.72
+199,Broccoli,Vegetable,54.75
+200,Kale,Vegetable,67.57
+201,Mushroom,Vegetable,33.12
+202,Radish,Vegetable,44.98
+203,Pea,Vegetable,32.93
+204,Cauliflower,Vegetable,46.86
+205,Leek,Vegetable,78.91
+206,Brussels Sprout,Vegetable,67.19
+207,Cauliflower,Vegetable,55.3
+208,Leek,Vegetable,64.32
+209,Cabbage,Vegetable,89.6
+210,Pea,Vegetable,7.56
+211,Beet,Vegetable,95.0
+212,Leek,Vegetable,99.15
+213,Turnip,Vegetable,26.74
+214,Celery,Vegetable,21.25
+215,Zucchini,Vegetable,71.56
+216,Beet,Vegetable,65.01
+217,Tomato,Vegetable,40.54
+218,Lettuce,Vegetable,62.61
+219,Spinach,Vegetable,77.37
+220,Broccoli,Vegetable,42.59
+221,Eggplant,Vegetable,87.55
+222,Garlic,Vegetable,65.83
+223,Beet,Vegetable,60.8
+224,Kale,Vegetable,13.63
+225,Kale,Vegetable,49.56
+226,Cauliflower,Vegetable,5.43
+227,Pea,Vegetable,60.44
+228,Broccoli,Vegetable,21.47
+229,Radish,Vegetable,29.0
+230,Potato,Vegetable,21.51
+231,Cucumber,Vegetable,39.28
+232,Cucumber,Vegetable,8.47
+233,Lettuce,Vegetable,77.88
+234,Spinach,Vegetable,42.62
+235,Jalapeï¿½o,Vegetable,18.78
+236,Asparagus,Vegetable,69.44
+237,Beet,Vegetable,75.53
+238,Onion,Vegetable,99.77
+239,Potato,Vegetable,89.14
+240,Sweet Potato,Vegetable,92.3
+241,Leek,Vegetable,48.88
+242,Spinach,Vegetable,86.62
+243,Garlic,Vegetable,14.63
+244,Artichoke,Vegetable,15.77
+245,Brussels Sprout,Vegetable,3.26
+246,Potato,Vegetable,19.0
+247,Onion,Vegetable,42.73
+248,Cucumber,Vegetable,29.84
+249,Carrot,Vegetable,77.58
+250,Carrot,Vegetable,9.93
+251,Carrot,Vegetable,96.09
+252,Spinach,Vegetable,6.16
+253,Onion,Vegetable,53.15
+254,Kale,Vegetable,43.13
+255,Carrot,Vegetable,54.88
+256,Lettuce,Vegetable,94.63
+257,Onion,Vegetable,45.38
+258,Beet,Vegetable,9.73
+259,Spinach,Vegetable,27.26
+260,Zucchini,Vegetable,79.36
+261,Cauliflower,Vegetable,66.76
+262,Radish,Vegetable,38.29
+263,Asparagus,Vegetable,94.18
+264,Kale,Vegetable,15.47
+265,Sweet Potato,Vegetable,56.81
+266,Green Bean,Vegetable,85.79
+267,Carrot,Vegetable,26.69
+268,Broccoli,Vegetable,74.06
+269,Kale,Vegetable,12.66
+270,Potato,Vegetable,14.73
+271,Cabbage,Vegetable,4.92
+272,Sweet Potato,Vegetable,22.09
+273,Mushroom,Vegetable,63.5
+274,Bell Pepper,Vegetable,31.8
+275,Beet,Vegetable,18.43
+276,Beet,Vegetable,49.83
+277,Celery,Vegetable,62.17
+278,Onion,Vegetable,21.96
+279,Bell Pepper,Vegetable,59.4
+280,Beet,Vegetable,69.2
+281,Broccoli,Vegetable,87.86
+282,Pea,Vegetable,24.56
+283,Sweet Potato,Vegetable,70.36
+284,Artichoke,Vegetable,35.1
+285,Spinach,Vegetable,44.72
+286,Sweet Potato,Vegetable,52.24
+287,Brussels Sprout,Vegetable,5.26
+288,Brussels Sprout,Vegetable,86.32
+289,Cauliflower,Vegetable,27.58
+290,Bell Pepper,Vegetable,70.31
+291,Broccoli,Vegetable,15.03
+292,Zucchini,Vegetable,22.52
+293,Carrot,Vegetable,60.26
+294,Bell Pepper,Vegetable,47.23
+295,Radish,Vegetable,36.41
+296,Jalapeï¿½o,Vegetable,60.41
+297,Lettuce,Vegetable,68.76
+298,Green Bean,Vegetable,86.12
+299,Mushroom,Vegetable,80.13
+300,Spinach,Vegetable,19.82
+301,Cauliflower,Vegetable,49.03
+302,Lettuce,Vegetable,15.07
+303,Beet,Vegetable,87.85
+304,Turnip,Vegetable,26.51
+305,Brussels Sprout,Vegetable,54.11
+306,Broccoli,Vegetable,84.12
+307,Green Bean,Vegetable,45.97
+308,Potato,Vegetable,45.83
+309,Eggplant,Vegetable,29.79
+310,Potato,Vegetable,28.31
+311,Broccoli,Vegetable,76.08
+312,Cabbage,Vegetable,41.15
+313,Leek,Vegetable,5.85
+314,Arugula,Vegetable,21.12
+315,Leek,Vegetable,65.35
+316,Lettuce,Vegetable,62.41
+317,Eggplant,Vegetable,18.21
+318,Radish,Vegetable,86.5
+319,Mushroom,Vegetable,22.99
+320,Cabbage,Vegetable,37.63
+321,Kale,Vegetable,85.09
+322,Celery,Vegetable,60.41
+323,Mushroom,Vegetable,16.57
+324,Lettuce,Vegetable,6.26
+325,Beet,Vegetable,47.55
+326,Asparagus,Vegetable,88.32
+327,Jalapeï¿½o,Vegetable,88.47
+328,Cucumber,Vegetable,7.33
+329,Turnip,Vegetable,78.84
+330,Tomato,Vegetable,22.43
+331,Celery,Vegetable,64.44
+332,Beet,Vegetable,37.46
+333,Turnip,Vegetable,15.42
+334,Zucchini,Vegetable,12.69
+335,Sour Cream,Dairy,66.33
+336,Swiss,Dairy,1.45
+337,Mozzarella,Dairy,44.46
+338,Greek Yogurt,Dairy,51.79
+339,Feta,Dairy,3.98
+340,Heavy Cream,Dairy,10.78
+341,Heavy Cream,Dairy,66.14
+342,Greek Yogurt,Dairy,54.66
+343,Feta,Dairy,13.9
+344,Mozzarella,Dairy,83.93
+345,Mozzarella,Dairy,33.49
+346,Ricotta,Dairy,68.32
+347,Mozzarella,Dairy,85.41
+348,Eggs,Dairy,79.65
+349,Ricotta,Dairy,30.41
+350,Ice Cream,Dairy,82.51
+351,Sour Cream,Dairy,12.21
+352,Milk,Dairy,91.7
+353,Goat,Dairy,69.82
+354,Whipped Cream,Dairy,3.66
+355,Goat,Dairy,83.31
+356,Butter,Dairy,36.29
+357,Whipped Cream,Dairy,68.46
+358,Blue,Dairy,27.62
+359,Cream Cheese,Dairy,20.15
+360,Parmesan,Dairy,61.16
+361,Whipped Cream,Dairy,5.19
+362,Blue,Dairy,17.77
+363,Mozzarella,Dairy,23.55
+364,Whipped Cream,Dairy,35.88
+365,Brie,Dairy,36.98
+366,Whipped Cream,Dairy,41.08
+367,Yogurt,Dairy,89.28
+368,Provolone,Dairy,76.94
+369,Cheddar,Dairy,0.26
+370,Brie,Dairy,44.71
+371,Greek Yogurt,Dairy,16.18
+372,Greek Yogurt,Dairy,72.59
+373,Goat,Dairy,28.53
+374,Milk,Dairy,81.15
+375,Swiss,Dairy,69.5
+376,Eggs,Dairy,94.97
+377,Goat,Dairy,17.52
+378,Provolone,Dairy,40.81
+379,Milk,Dairy,79.89
+380,Cream Cheese,Dairy,4.98
+381,Eggs,Dairy,70.35
+382,Brie,Dairy,12.09
+383,Blue,Dairy,27.53
+384,Yogurt,Dairy,17.32
+385,Parmesan,Dairy,48.27
+386,Cheddar,Dairy,96.54
+387,Cream Cheese,Dairy,54.5
+388,Heavy Cream,Dairy,57.66
+389,Cheddar,Dairy,43.37
+390,Whipped Cream,Dairy,41.55
+391,Provolone,Dairy,12.96
+392,Parmesan,Dairy,60.2
+393,Provolone,Dairy,36.2
+394,Cheddar,Dairy,30.16
+395,Yogurt,Dairy,36.54
+396,Cheddar,Dairy,75.88
+397,Ice Cream,Dairy,47.93
+398,Brie,Dairy,61.58
+399,Sour Cream,Dairy,64.26
+400,Cream Cheese,Dairy,76.69
+401,Yogurt,Dairy,23.61
+402,Milk,Dairy,71.39
+403,Ice Cream,Dairy,71.96
+404,Blue,Dairy,25.9
+405,Parmesan,Dairy,32.33
+406,Yogurt,Dairy,91.6
+407,Feta,Dairy,14.58
+408,Goat,Dairy,44.59
+409,Whipped Cream,Dairy,85.26
+410,Butter,Dairy,42.37
+411,Whipped Cream,Dairy,86.75
+412,Cheddar,Dairy,2.36
+413,Provolone,Dairy,34.89
+414,Goat,Dairy,28.48
+415,Swiss,Dairy,2.1
+416,Swiss,Dairy,51.02
+417,Ricotta,Dairy,21.33
+418,Blue,Dairy,22.98
+419,Milk,Dairy,47.87
+420,Parmesan,Dairy,59.61
+421,Mozzarella,Dairy,88.13
+422,Ice Cream,Dairy,42.98
+423,Provolone,Dairy,10.2
+424,Yogurt,Dairy,88.79
+425,Milk,Dairy,22.48
+426,Blue,Dairy,63.32
+427,Feta,Dairy,69.35
+428,Blue,Dairy,31.04
+429,Eggs,Dairy,61.95
+430,Heavy Cream,Dairy,49.16
+431,Eggs,Dairy,17.87
+432,Eggs,Dairy,41.39
+433,Cream Cheese,Dairy,50.53
+434,Cream Cheese,Dairy,53.38
+435,Sour Cream,Dairy,85.97
+436,Yogurt,Dairy,82.76
+437,Cream Cheese,Dairy,50.39
+438,Yogurt,Dairy,54.59
+439,Heavy Cream,Dairy,15.34
+440,Brie,Dairy,44.96
+441,Heavy Cream,Dairy,6.4
+442,Swiss,Dairy,66.0
+443,Eggs,Dairy,32.77
+444,Greek Yogurt,Dairy,17.62
+445,Cheddar,Dairy,76.72
+446,Provolone,Dairy,24.54
+447,Cheddar,Dairy,13.66
+448,Sour Cream,Dairy,93.16
+449,Cream Cheese,Dairy,19.54
+450,Brie,Dairy,67.75
+451,Eggs,Dairy,30.0
+452,Butter,Dairy,5.21
+453,Butter,Dairy,51.08
+454,Mozzarella,Dairy,75.1
+455,Blue,Dairy,82.8
+456,Goat,Dairy,98.73
+457,Yogurt,Dairy,11.12
+458,Milk,Dairy,19.83
+459,Parmesan,Dairy,67.13
+460,Yogurt,Dairy,5.85
+461,Butter,Dairy,68.19
+462,Blue,Dairy,27.18
+463,Yogurt,Dairy,90.33
+464,Blue,Dairy,13.18
+465,Cream Cheese,Dairy,70.68
+466,Greek Yogurt,Dairy,24.59
+467,Blue,Dairy,75.26
+468,Mozzarella,Dairy,0.44
+469,Brie,Dairy,81.72
+470,Provolone,Dairy,99.25
+471,Milk,Dairy,66.5
+472,Cheddar,Dairy,76.27
+473,Provolone,Dairy,88.48
+474,Brie,Dairy,19.0
+475,Feta,Dairy,80.56
+476,Greek Yogurt,Dairy,92.91
+477,Whipped Cream,Dairy,17.97
+478,Mozzarella,Dairy,29.32
+479,Provolone,Dairy,35.78
+480,Feta,Dairy,60.76
+481,Goat,Dairy,46.42
+482,Cheddar,Dairy,22.06
+483,Feta,Dairy,68.05
+484,Brie,Dairy,8.97
+485,Blue,Dairy,50.02
+486,Ricotta,Dairy,95.43
+487,Feta,Dairy,52.64
+488,Mozzarella,Dairy,51.47
+489,Goat,Dairy,65.33
+490,Ice Cream,Dairy,37.31
+491,Blue,Dairy,1.51
+492,Greek Yogurt,Dairy,44.28
+493,Heavy Cream,Dairy,38.21
+494,Greek Yogurt,Dairy,18.75
+495,Provolone,Dairy,53.6
+496,Feta,Dairy,93.58
+497,Provolone,Dairy,13.47
+498,Greek Yogurt,Dairy,70.94
+499,Yogurt,Dairy,92.13
+500,Ice Cream,Dairy,61.38
+501,Cheddar,Dairy,17.67
+502,Pork,Meat,9.95
+503,Ham,Meat,11.66
+504,Chicken,Meat,96.96
+505,Veal,Meat,27.29
+506,Turkey,Meat,19.88
+507,Mutton,Meat,16.42
+508,Chicken,Meat,86.22
+509,Turkey,Meat,27.61
+510,Rabbit,Meat,42.89
+511,Ham,Meat,81.52
+512,Beef,Meat,47.78
+513,Pork,Meat,89.94
+514,Venison,Meat,19.24
+515,Mutton,Meat,39.41
+516,Beef,Meat,47.38
+517,Rabbit,Meat,40.68
+518,Salami,Meat,57.69
+519,Goat,Meat,1.32
+520,Turkey,Meat,39.47
+521,Turkey,Meat,51.29
+522,Duck,Meat,94.37
+523,Salami,Meat,32.08
+524,Venison,Meat,99.37
+525,Turkey,Meat,46.81
+526,Beef,Meat,87.71
+527,Goat,Meat,74.62
+528,Goat,Meat,89.8
+529,Venison,Meat,45.01
+530,Bison,Meat,60.81
+531,Chicken,Meat,22.03
+532,Ham,Meat,70.06
+533,Turkey,Meat,13.76
+534,Lamb,Meat,57.79
+535,Mutton,Meat,31.3
+536,Sausage,Meat,91.59
+537,Venison,Meat,44.5
+538,Chicken,Meat,23.34
+539,Venison,Meat,31.9
+540,Goat,Meat,78.22
+541,Veal,Meat,7.35
+542,Duck,Meat,37.74
+543,Bacon,Meat,93.57
+544,Sausage,Meat,43.95
+545,Ham,Meat,8.29
+546,Rabbit,Meat,80.67
+547,Duck,Meat,24.13
+548,Ham,Meat,5.39
+549,Goat,Meat,1.6
+550,Bison,Meat,20.83
+551,Ham,Meat,7.06
+552,Rabbit,Meat,64.35
+553,Rabbit,Meat,62.5
+554,Chicken,Meat,3.88
+555,Turkey,Meat,69.32
+556,Lamb,Meat,84.4
+557,Beef,Meat,79.12
+558,Veal,Meat,95.2
+559,Goat,Meat,45.93
+560,Duck,Meat,14.05
+561,Goat,Meat,94.06
+562,Veal,Meat,42.81
+563,Venison,Meat,46.47
+564,Pork,Meat,1.25
+565,Sausage,Meat,26.01
+566,Duck,Meat,36.85
+567,Pork,Meat,13.25
+568,Goat,Meat,71.75
+569,Mutton,Meat,1.69
+570,Chicken,Meat,75.69
+571,Bacon,Meat,30.79
+572,Beef,Meat,90.56
+573,Veal,Meat,17.13
+574,Turkey,Meat,72.19
+575,Venison,Meat,45.45
+576,Venison,Meat,98.31
+577,Rabbit,Meat,38.98
+578,Rabbit,Meat,83.25
+579,Beef,Meat,18.73
+580,Pork,Meat,47.75
+581,Pork,Meat,90.84
+582,Lamb,Meat,7.94
+583,Rabbit,Meat,50.81
+584,Bison,Meat,94.81
+585,Veal,Meat,63.03
+586,Venison,Meat,44.75
+587,Sausage,Meat,54.56
+588,Turkey,Meat,90.22
+589,Bacon,Meat,27.93
+590,Beef,Meat,48.71
+591,Bison,Meat,10.07
+592,Veal,Meat,51.6
+593,Rabbit,Meat,85.51
+594,Mutton,Meat,16.75
+595,Bison,Meat,84.3
+596,Sausage,Meat,63.94
+597,Lamb,Meat,7.68
+598,Veal,Meat,82.29
+599,Bison,Meat,71.53
+600,Beef,Meat,88.19
+601,Duck,Meat,32.96
+602,Lamb,Meat,67.3
+603,Lamb,Meat,31.31
+604,Bacon,Meat,49.18
+605,Ham,Meat,39.96
+606,Duck,Meat,19.05
+607,Salami,Meat,20.22
+608,Rabbit,Meat,47.19
+609,Venison,Meat,93.53
+610,Pork,Meat,72.17
+611,Duck,Meat,77.96
+612,Turkey,Meat,97.27
+613,Turkey,Meat,78.81
+614,Mutton,Meat,15.85
+615,Chicken,Meat,42.03
+616,Venison,Meat,74.17
+617,Mutton,Meat,84.41
+618,Veal,Meat,52.78
+619,Venison,Meat,77.78
+620,Chicken,Meat,85.48
+621,Chicken,Meat,22.65
+622,Sausage,Meat,8.02
+623,Turkey,Meat,56.36
+624,Mutton,Meat,9.7
+625,Lamb,Meat,92.99
+626,Venison,Meat,88.4
+627,Veal,Meat,11.07
+628,Goat,Meat,29.69
+629,Bacon,Meat,42.4
+630,Pork,Meat,61.1
+631,Bison,Meat,48.76
+632,Beef,Meat,73.84
+633,Veal,Meat,51.82
+634,Mutton,Meat,14.6
+635,Mutton,Meat,28.54
+636,Rabbit,Meat,89.61
+637,Sausage,Meat,14.04
+638,Chicken,Meat,81.73
+639,Bison,Meat,12.07
+640,Turkey,Meat,63.38
+641,Chicken,Meat,83.59
+642,Bison,Meat,40.11
+643,Salami,Meat,11.57
+644,Salami,Meat,45.24
+645,Duck,Meat,64.68
+646,Sausage,Meat,81.52
+647,Ham,Meat,74.55
+648,Chicken,Meat,59.6
+649,Chicken,Meat,13.78
+650,Turkey,Meat,21.62
+651,Veal,Meat,99.7
+652,Duck,Meat,64.25
+653,Bacon,Meat,81.4
+654,Lamb,Meat,20.81
+655,Pork,Meat,46.43
+656,Veal,Meat,67.5
+657,Pork,Meat,14.21
+658,Duck,Meat,55.52
+659,Ham,Meat,28.44
+660,Pork,Meat,64.1
+661,Ham,Meat,8.6
+662,Rabbit,Meat,89.92
+663,Chicken,Meat,80.74
+664,Ham,Meat,15.72
+665,Beef,Meat,84.31
+666,Turkey,Meat,16.76
+667,Venison,Meat,54.9
+668,Turkey,Meat,58.03
+669,Bass,Seafood,2.57
+670,Trout,Seafood,80.19
+671,Tuna,Seafood,92.95
+672,Swordfish,Seafood,85.48
+673,Swordfish,Seafood,85.51
+674,Prawn,Seafood,4.58
+675,Cod,Seafood,27.41
+676,Haddock,Seafood,65.34
+677,Octopus,Seafood,68.04
+678,Cod,Seafood,60.81
+679,Grouper,Seafood,71.94
+680,Octopus,Seafood,42.07
+681,Bass,Seafood,8.89
+682,Octopus,Seafood,34.3
+683,Clam,Seafood,89.57
+684,Salmon,Seafood,15.53
+685,Tuna,Seafood,26.57
+686,Octopus,Seafood,53.35
+687,Grouper,Seafood,90.69
+688,Octopus,Seafood,90.29
+689,Swordfish,Seafood,19.51
+690,Pollock,Seafood,65.21
+691,Clam,Seafood,69.03
+692,Bass,Seafood,40.45
+693,Shrimp,Seafood,77.75
+694,Oyster,Seafood,70.79
+695,Swordfish,Seafood,23.05
+696,Anchovy,Seafood,13.87
+697,Snapper,Seafood,86.27
+698,Scallop,Seafood,30.24
+699,Tuna,Seafood,4.15
+700,Haddock,Seafood,34.43
+701,Prawn,Seafood,67.7
+702,Clam,Seafood,38.75
+703,Tuna,Seafood,26.3
+704,Grouper,Seafood,87.06
+705,Tuna,Seafood,0.11
+706,Snapper,Seafood,59.77
+707,Snapper,Seafood,21.29
+708,Halibut,Seafood,61.99
+709,Grouper,Seafood,72.72
+710,Tuna,Seafood,29.03
+711,Halibut,Seafood,2.15
+712,Crab,Seafood,70.09
+713,Clam,Seafood,70.08
+714,Squid,Seafood,70.1
+715,Octopus,Seafood,0.71
+716,Trout,Seafood,13.8
+717,Clam,Seafood,9.43
+718,Cod,Seafood,56.66
+719,Clam,Seafood,48.29
+720,Cod,Seafood,95.66
+721,Salmon,Seafood,26.72
+722,Octopus,Seafood,81.11
+723,Lobster,Seafood,6.31
+724,Swordfish,Seafood,84.5
+725,Octopus,Seafood,54.04
+726,Crab,Seafood,92.91
+727,Clam,Seafood,27.11
+728,Salmon,Seafood,38.8
+729,Sardine,Seafood,98.86
+730,Snapper,Seafood,41.87
+731,Octopus,Seafood,35.96
+732,Oyster,Seafood,4.48
+733,Scallop,Seafood,19.64
+734,Swordfish,Seafood,75.65
+735,Anchovy,Seafood,63.8
+736,Trout,Seafood,68.93
+737,Prawn,Seafood,86.6
+738,Mussel,Seafood,92.54
+739,Snapper,Seafood,76.41
+740,Tuna,Seafood,73.3
+741,Salmon,Seafood,72.89
+742,Crab,Seafood,50.03
+743,Swordfish,Seafood,37.37
+744,Bass,Seafood,24.81
+745,Octopus,Seafood,65.5
+746,Scallop,Seafood,54.6
+747,Sardine,Seafood,71.82
+748,Octopus,Seafood,43.46
+749,Squid,Seafood,69.1
+750,Halibut,Seafood,79.89
+751,Mussel,Seafood,41.22
+752,Halibut,Seafood,44.11
+753,Haddock,Seafood,95.17
+754,Haddock,Seafood,0.33
+755,Sardine,Seafood,77.77
+756,Squid,Seafood,98.71
+757,Prawn,Seafood,85.25
+758,Snapper,Seafood,83.39
+759,Snapper,Seafood,91.23
+760,Grouper,Seafood,90.89
+761,Haddock,Seafood,70.47
+762,Bass,Seafood,71.28
+763,Pollock,Seafood,63.25
+764,Swordfish,Seafood,5.88
+765,Clam,Seafood,5.42
+766,Prawn,Seafood,29.62
+767,Shrimp,Seafood,34.04
+768,Scallop,Seafood,53.33
+769,Grouper,Seafood,46.26
+770,Tuna,Seafood,49.99
+771,Sardine,Seafood,70.69
+772,Clam,Seafood,17.83
+773,Oyster,Seafood,46.95
+774,Snapper,Seafood,13.71
+775,Grouper,Seafood,60.87
+776,Salmon,Seafood,16.35
+777,Tuna,Seafood,7.64
+778,Prawn,Seafood,83.19
+779,Trout,Seafood,91.9
+780,Bass,Seafood,96.35
+781,Scallop,Seafood,42.91
+782,Prawn,Seafood,86.73
+783,Grouper,Seafood,15.21
+784,Bass,Seafood,1.33
+785,Lobster,Seafood,43.61
+786,Salmon,Seafood,51.71
+787,Lobster,Seafood,69.26
+788,Lobster,Seafood,72.76
+789,Lobster,Seafood,28.19
+790,Lobster,Seafood,90.46
+791,Grouper,Seafood,31.43
+792,Mussel,Seafood,78.81
+793,Mussel,Seafood,91.17
+794,Crab,Seafood,20.11
+795,Scallop,Seafood,56.44
+796,Tuna,Seafood,91.59
+797,Snapper,Seafood,92.41
+798,Anchovy,Seafood,85.5
+799,Halibut,Seafood,22.42
+800,Tuna,Seafood,72.53
+801,Prawn,Seafood,33.49
+802,Prawn,Seafood,43.04
+803,Pollock,Seafood,15.76
+804,Bass,Seafood,63.1
+805,Bass,Seafood,35.39
+806,Grouper,Seafood,37.23
+807,Prawn,Seafood,12.86
+808,Clam,Seafood,16.24
+809,Cod,Seafood,94.33
+810,Oyster,Seafood,84.14
+811,Squid,Seafood,57.1
+812,Snapper,Seafood,52.26
+813,Clam,Seafood,81.33
+814,Scallop,Seafood,4.71
+815,Swordfish,Seafood,83.42
+816,Crab,Seafood,41.66
+817,Salmon,Seafood,63.32
+818,Haddock,Seafood,32.03
+819,Swordfish,Seafood,76.13
+820,Haddock,Seafood,46.54
+821,Shrimp,Seafood,69.63
+822,Lobster,Seafood,2.55
+823,Anchovy,Seafood,20.34
+824,Swordfish,Seafood,3.27
+825,Sardine,Seafood,7.36
+826,Squid,Seafood,52.32
+827,Salmon,Seafood,5.28
+828,Snapper,Seafood,51.3
+829,Halibut,Seafood,73.32
+830,Grouper,Seafood,34.65
+831,Salmon,Seafood,22.99
+832,Mussel,Seafood,52.31
+833,Cod,Seafood,5.32
+834,Oyster,Seafood,49.13
+835,Swordfish,Seafood,1.72
+836,Rye,Bread,87.36
+837,Pita,Bread,91.4
+838,Ciabatta,Bread,58.02
+839,White,Bread,57.73
+840,Baguette,Bread,25.75
+841,Multigrain,Bread,45.65
+842,Sourdough,Bread,43.9
+843,Sourdough,Bread,32.41
+844,Sourdough,Bread,30.44
+845,Rye,Bread,22.29
+846,Naan,Bread,28.66
+847,Ciabatta Roll,Bread,38.59
+848,Multigrain,Bread,0.62
+849,Baguette,Bread,77.29
+850,Kaiser Roll,Bread,82.22
+851,Kaiser Roll,Bread,20.53
+852,Focaccia,Bread,33.82
+853,Ciabatta Roll,Bread,9.39
+854,Focaccia,Bread,5.13
+855,Whole Wheat,Bread,0.94
+856,Rye,Bread,65.41
+857,Ciabatta Roll,Bread,65.4
+858,Tortilla,Bread,69.28
+859,Tortilla,Bread,58.66
+860,Texas Toast,Bread,53.72
+861,Baguette,Bread,24.57
+862,Sub Roll,Bread,51.58
+863,Ciabatta,Bread,57.22
+864,White,Bread,67.53
+865,Multigrain,Bread,86.99
+866,Texas Toast,Bread,64.16
+867,Tortilla,Bread,3.34
+868,Sub Roll,Bread,57.83
+869,Whole Wheat,Bread,18.28
+870,Pita,Bread,9.54
+871,Rye,Bread,73.57
+872,Rye,Bread,19.21
+873,Bagel,Bread,41.14
+874,Sub Roll,Bread,5.55
+875,Bagel,Bread,38.69
+876,Naan,Bread,88.98
+877,Ciabatta Roll,Bread,46.4
+878,Kaiser Roll,Bread,45.94
+879,Tortilla,Bread,9.63
+880,Focaccia,Bread,71.59
+881,Multigrain,Bread,7.64
+882,Bagel,Bread,32.46
+883,Pita,Bread,68.33
+884,Rye,Bread,85.22
+885,Sourdough,Bread,97.7
+886,Brioche,Bread,16.21
+887,White,Bread,16.35
+888,Bagel,Bread,68.38
+889,Naan,Bread,91.97
+890,English Muffin,Bread,15.35
+891,Whole Wheat,Bread,82.53
+892,Kaiser Roll,Bread,4.34
+893,Focaccia,Bread,41.75
+894,Texas Toast,Bread,48.64
+895,Brioche,Bread,17.92
+896,Pita,Bread,46.2
+897,Focaccia,Bread,69.24
+898,Ciabatta,Bread,12.51
+899,Ciabatta Roll,Bread,12.21
+900,Kaiser Roll,Bread,98.3
+901,Whole Wheat,Bread,33.71
+902,Tortilla,Bread,38.1
+903,Multigrain,Bread,32.78
+904,Multigrain,Bread,93.56
+905,English Muffin,Bread,56.41
+906,Hoagie Roll,Bread,78.74
+907,Naan,Bread,16.31
+908,Sub Roll,Bread,98.87
+909,Sourdough,Bread,18.46
+910,Hoagie Roll,Bread,25.56
+911,Tortilla,Bread,35.09
+912,Pita,Bread,6.07
+913,Sub Roll,Bread,23.79
+914,Sub Roll,Bread,14.18
+915,Ciabatta Roll,Bread,55.09
+916,Kaiser Roll,Bread,32.46
+917,Sub Roll,Bread,61.56
+918,Rye,Bread,7.56
+919,Rye,Bread,6.39
+920,Ciabatta,Bread,31.35
+921,Bagel,Bread,52.42
+922,Focaccia,Bread,12.71
+923,Pita,Bread,45.72
+924,Whole Wheat,Bread,89.92
+925,Brioche,Bread,73.65
+926,Focaccia,Bread,94.52
+927,Pita,Bread,41.03
+928,Ciabatta,Bread,72.54
+929,Flatbread,Bread,61.43
+930,Sub Roll,Bread,73.46
+931,Ciabatta,Bread,17.59
+932,Ciabatta Roll,Bread,91.21
+933,Focaccia,Bread,83.88
+934,Flatbread,Bread,87.31
+935,Hoagie Roll,Bread,73.22
+936,Naan,Bread,13.89
+937,Tortilla,Bread,60.44
+938,Ciabatta,Bread,10.33
+939,Naan,Bread,49.94
+940,Bagel,Bread,84.21
+941,Bagel,Bread,95.63
+942,Naan,Bread,1.19
+943,Hoagie Roll,Bread,50.16
+944,English Muffin,Bread,54.33
+945,Rye,Bread,80.13
+946,Naan,Bread,51.69
+947,Naan,Bread,44.82
+948,Whole Wheat,Bread,52.78
+949,Kaiser Roll,Bread,61.91
+950,White,Bread,93.04
+951,Kaiser Roll,Bread,73.18
+952,Brioche,Bread,73.55
+953,Naan,Bread,21.63
+954,Whole Wheat,Bread,26.01
+955,Whole Wheat,Bread,86.43
+956,Kaiser Roll,Bread,84.33
+957,Ciabatta Roll,Bread,95.72
+958,Rye,Bread,59.84
+959,Rye,Bread,42.8
+960,Pita,Bread,97.26
+961,Focaccia,Bread,99.95
+962,Bagel,Bread,40.64
+963,Tortilla,Bread,46.51
+964,Rye,Bread,44.82
+965,Focaccia,Bread,97.28
+966,Sourdough,Bread,58.22
+967,Kaiser Roll,Bread,75.2
+968,Bagel,Bread,56.12
+969,Naan,Bread,68.24
+970,Hoagie Roll,Bread,21.99
+971,Pita,Bread,39.46
+972,Texas Toast,Bread,63.45
+973,Brioche,Bread,53.09
+974,Sourdough,Bread,39.59
+975,Rye,Bread,61.55
+976,Ciabatta,Bread,10.8
+977,Pita,Bread,90.4
+978,Tortilla,Bread,16.01
+979,Texas Toast,Bread,66.63
+980,Ciabatta Roll,Bread,46.73
+981,Naan,Bread,51.85
+982,Bagel,Bread,22.83
+983,English Muffin,Bread,52.52
+984,Naan,Bread,42.36
+985,Sourdough,Bread,53.86
+986,Bagel,Bread,30.87
+987,Kaiser Roll,Bread,76.41
+988,Whole Wheat,Bread,54.22
+989,Tortilla,Bread,30.19
+990,White,Bread,55.43
+991,Rye,Bread,46.98
+992,Focaccia,Bread,42.36
+993,Bagel,Bread,70.31
+994,Ciabatta,Bread,20.5
+995,White,Bread,53.79
+996,English Muffin,Bread,65.62
+997,Whole Wheat,Bread,2.52
+998,Focaccia,Bread,90.36
+999,Ciabatta Roll,Bread,0.12
+1000,White,Bread,50.22
+1001,Tortilla,Bread,79.01
+1002,Ciabatta Roll,Bread,75.37
