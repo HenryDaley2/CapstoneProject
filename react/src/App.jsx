@@ -6,6 +6,8 @@ import "./App.css";
 import Products from "./assets/Products.json";
 import React, { useState, useEffect } from "react";
 import ProductDisplay from "./components/ProductDisplay";
+import CreateAccount from "./components/CreateAccount";
+import Login from "./components/Login";
 
 const App = () => {
     const [data, setData] = useState([]);
@@ -30,11 +32,22 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar data = {data}/>
+      <Navbar data={data} />
       <Routes>
-        <Route path=":id" element ={<ProductDisplay/>} />
-        <Route path="/" element={<Home data = {data} filterProducts={filterProducts} setFilterProducts = {setFilterProducts} />} />
+        <Route path=":id" element={<ProductDisplay />} />
+        <Route
+          path="/"
+          element={
+            <Home
+              data={data}
+              filterProducts={filterProducts}
+              setFilterProducts={setFilterProducts}
+            />
+          }
+        />
         <Route path="/about" element={<About />} />
+        <Route path="/createaccount" element={<CreateAccount />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

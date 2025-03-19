@@ -9,6 +9,7 @@ dotenv.config();
 const url = process.env.MONGO_DB_URL;
 const dbName = process.env.MONGO_DB;
 const collectionName = process.env.MONGO_DB_COLLECTION;
+const usersCollection = process.env.MONGO_DB_USERS_COLLECTION;
 
 const app = express();
 app.use(cors()); // Enable CORS for all routes
@@ -39,12 +40,75 @@ app.get("/products/:id", async (req, res) => {
     res.json(products);
   } catch (err) {
     console.error("Error:", err);
-    res
-      .status(500)
-      .send(`Error fetching product with id ${id}`);
+    res.status(500).send(`Error fetching product with id ${id}`);
   }
 });
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+app.post("/register", async (req, res) => {
+  try {
+    const { username, email, password } = req.body;
+
+    if (!username || !email || !password) {
+      return res.status(400).json({ message: "All fields are required" });
+    }
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const usersCollection = db.collection("users"); // ✅ Using "users" collection
+
+    // Check if email is already registered
+    const existingUser = await usersCollection.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ message: "Email already in use" });
+    }
+
+    // Insert user into database (NO HASHING)
+    const newUser = { username, email, password };
+    await usersCollection.insertOne(newUser);
+
+    res.status(201).json({ message: "User registered successfully" });
+  } catch (error) {
+    console.error("Error registering user:", error);
+    res.status(500).json({ message: "Error registering user" });
+  }
+});
+
+app.post("/login", async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const usersCollection = db.collection("users");
+
+    // Ensure email is lowercase & trimmed
+    const user = await usersCollection.findOne({
+      email: email.trim().toLowerCase(),
+    });
+
+    if (!user) {
+      return res.status(400).json({ message: "User not found" });
+    }
+
+    // Check if passwords match (NO hashing)
+    if (user.password !== password) {
+      return res.status(400).json({ message: "Incorrect password" });
+    }
+
+    // Return user data (excluding password)
+    res
+      .status(200)
+      .json({
+        message: "Login successful",
+        user: { email: user.email, username: user.username },
+      });
+  } catch (error) {
+    console.error("Error logging in:", error);
+    res.status(500).json({ message: "Error logging in" });
+  }
+});
+
