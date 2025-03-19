@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "item": "Granny Smith Apple",
+    "type": "fruit",
+    "price": 0.99
+  },
+  {
+    "id": 2,
+    "item": "Honeycrisp Apple",
+    "type": "fruit",
+    "price": 0.69
+  },
+  {
+    "id": 3,
+    "item": "Lettuce",
+    "type": "vegetable",
+    "price": 1.29
+  },
+  {
+    "id": 4,
+    "item": "Spinach",
+    "type": "vegetable",
+    "price": 1.19
+  },
+  {
+    "id": 5,
+    "item": "Watermelon",
+    "type": "fruit",
+    "price": 3.99
+  },
+  {
+    "id": 6,
+    "item": "White Bread",
+    "type": "bread",
+    "price": 2.99
+  },
+  {
+    "id": 7,
+    "item": "Rye Bread",
+    "type": "bread",
+    "price": 1.99
+  },
+  {
+    "id": 8,
+    "item": "Tuna",
+    "type": "seafood",
+    "price": 5.99
+  },
+  {
+    "id": 9,
+    "item": "Eggs",
+    "type": "dairy",
+    "price": 4.99
+  },
+  {
+    "id": 10,
+    "item": "Whole Milk",
+    "type": "dairy",
+    "price": 1.99
+  },
+  {
+    "id": 11,
+    "item": "American Cheese",
+    "type": "dairy",
+    "price": 0.99
+  },
+  {
+    "id": 12,
+    "item": "Ribeye",
+    "type": "meat",
+    "price": 11.99
+  },
+  {
+    "id": 13,
+    "item": "Chicken Wings",
+    "type": "meat",
+    "price": 5.99
+  },
+  {
+    "id": 14,
+    "item": "Porkchops",
+    "type": "meat",
+    "price": 6.99
+  }
+]

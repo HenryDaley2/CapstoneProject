@@ -1,0 +1,1003 @@
+id,item,type,origin,price,organic_or_inorganic
+1,Cherry,fruit,imported,6.17,organic
+2,Date,fruit,imported,29.1,inorganic
+3,Blackberry,fruit,local,2.64,inorganic
+4,Raspberry,fruit,imported,27.22,organic
+5,Fig,fruit,imported,36.41,organic
+6,Grape,fruit,imported,49.9,inorganic
+7,Mango,fruit,local,72.06,inorganic
+8,Strawberry,fruit,local,65.71,inorganic
+9,Kiwi,fruit,imported,51.73,organic
+10,Peach,fruit,local,40.6,organic
+11,Banana,fruit,imported,1.75,organic
+12,Blueberry,fruit,local,99.93,inorganic
+13,Date,fruit,imported,10.87,inorganic
+14,Mango,fruit,imported,88.62,inorganic
+15,Cantaloupe,fruit,local,49.41,inorganic
+16,Raspberry,fruit,local,29.22,inorganic
+17,Cherry,fruit,local,74.76,inorganic
+18,Papaya,fruit,imported,15.31,inorganic
+19,Pomegranate,fruit,imported,74.81,organic
+20,Raspberry,fruit,imported,55.45,inorganic
+21,Dragonfruit,fruit,imported,19.92,inorganic
+22,Dragonfruit,fruit,imported,76.59,inorganic
+23,Grape,fruit,imported,73.9,organic
+24,Lemon,fruit,imported,28.27,inorganic
+25,Mango,fruit,local,42.1,organic
+26,Kiwi,fruit,local,96.02,organic
+27,Orange,fruit,imported,40.85,inorganic
+28,Dragonfruit,fruit,local,51.83,inorganic
+29,Cherry,fruit,local,73.0,inorganic
+30,Apple,fruit,local,32.69,organic
+31,Kiwi,fruit,local,37.09,inorganic
+32,Dragonfruit,fruit,imported,24.42,inorganic
+33,Pomegranate,fruit,imported,94.09,inorganic
+34,Dragonfruit,fruit,local,54.64,inorganic
+35,Papaya,fruit,local,10.11,inorganic
+36,Papaya,fruit,imported,81.71,organic
+37,Plum,fruit,imported,28.46,organic
+38,Tangerine,fruit,local,59.75,inorganic
+39,Pineapple,fruit,imported,19.27,inorganic
+40,Orange,fruit,local,45.05,inorganic
+41,Dragonfruit,fruit,imported,67.0,organic
+42,Apple,fruit,local,8.89,inorganic
+43,Blackberry,fruit,local,33.82,inorganic
+44,Lemon,fruit,local,63.57,organic
+45,Kiwi,fruit,local,86.16,organic
+46,Pear,fruit,imported,34.66,inorganic
+47,Papaya,fruit,local,88.79,organic
+48,Plum,fruit,imported,56.39,inorganic
+49,Strawberry,fruit,local,59.95,organic
+50,Grape,fruit,local,92.89,inorganic
+51,Blackberry,fruit,imported,10.94,inorganic
+52,Dragonfruit,fruit,local,67.29,inorganic
+53,Banana,fruit,local,7.28,inorganic
+54,Mango,fruit,local,10.98,inorganic
+55,Peach,fruit,imported,14.99,organic
+56,Mango,fruit,local,76.04,organic
+57,Cantaloupe,fruit,imported,47.31,organic
+58,Banana,fruit,local,74.67,organic
+59,Strawberry,fruit,local,66.33,inorganic
+60,Blueberry,fruit,imported,52.2,inorganic
+61,Grape,fruit,imported,74.05,organic
+62,Lemon,fruit,imported,95.62,inorganic
+63,Tangerine,fruit,local,35.96,organic
+64,Plum,fruit,imported,19.12,organic
+65,Pear,fruit,imported,3.24,organic
+66,Banana,fruit,imported,11.58,inorganic
+67,Peach,fruit,local,43.58,organic
+68,Strawberry,fruit,imported,38.97,inorganic
+69,Pineapple,fruit,local,93.33,organic
+70,Watermelon,fruit,local,6.13,inorganic
+71,Pear,fruit,local,95.02,organic
+72,Papaya,fruit,imported,90.52,inorganic
+73,Plum,fruit,local,19.26,organic
+74,Tangerine,fruit,local,37.95,organic
+75,Apricot,fruit,local,21.96,inorganic
+76,Apricot,fruit,local,85.43,organic
+77,Plum,fruit,local,15.5,inorganic
+78,Cantaloupe,fruit,imported,87.16,organic
+79,Banana,fruit,imported,93.71,organic
+80,Plum,fruit,imported,59.2,inorganic
+81,Pomegranate,fruit,local,48.05,inorganic
+82,Fig,fruit,imported,0.99,inorganic
+83,Grape,fruit,local,94.13,inorganic
+84,Banana,fruit,local,95.05,inorganic
+85,Cherry,fruit,local,87.86,inorganic
+86,Mango,fruit,local,19.71,organic
+87,Mango,fruit,local,83.43,inorganic
+88,Grape,fruit,local,72.75,organic
+89,Blueberry,fruit,local,26.59,inorganic
+90,Mango,fruit,imported,66.88,organic
+91,Date,fruit,local,12.52,organic
+92,Strawberry,fruit,local,71.33,inorganic
+93,Grape,fruit,local,10.89,organic
+94,Dragonfruit,fruit,imported,98.15,organic
+95,Grape,fruit,local,38.68,organic
+96,Apricot,fruit,local,30.27,organic
+97,Cherry,fruit,imported,86.52,inorganic
+98,Apricot,fruit,imported,45.18,inorganic
+99,Raspberry,fruit,local,20.2,organic
+100,Dragonfruit,fruit,imported,40.15,inorganic
+101,Mango,fruit,imported,21.95,organic
+102,Grape,fruit,local,11.31,inorganic
+103,Blueberry,fruit,imported,72.11,inorganic
+104,Orange,fruit,imported,76.55,organic
+105,Peach,fruit,local,89.01,organic
+106,Cherry,fruit,imported,74.26,inorganic
+107,Papaya,fruit,imported,44.27,inorganic
+108,Raspberry,fruit,imported,88.9,inorganic
+109,Raspberry,fruit,local,86.24,organic
+110,Raspberry,fruit,local,48.57,inorganic
+111,Papaya,fruit,local,23.99,inorganic
+112,Date,fruit,local,67.36,inorganic
+113,Orange,fruit,local,9.51,organic
+114,Pomegranate,fruit,imported,14.5,inorganic
+115,Strawberry,fruit,local,25.72,inorganic
+116,Pear,fruit,local,98.04,organic
+117,Date,fruit,local,2.07,organic
+118,Blueberry,fruit,imported,16.49,organic
+119,Apricot,fruit,imported,86.62,organic
+120,Cherry,fruit,local,91.08,organic
+121,Cantaloupe,fruit,local,89.71,organic
+122,Dragonfruit,fruit,local,52.6,inorganic
+123,Banana,fruit,imported,53.45,organic
+124,Cherry,fruit,imported,17.05,organic
+125,Lemon,fruit,imported,73.64,inorganic
+126,Date,fruit,imported,93.13,organic
+127,Pomegranate,fruit,imported,57.11,inorganic
+128,Fig,fruit,local,10.3,inorganic
+129,Dragonfruit,fruit,imported,55.46,inorganic
+130,Papaya,fruit,imported,15.52,inorganic
+131,Pear,fruit,local,26.97,organic
+132,Cherry,fruit,local,55.72,inorganic
+133,Dragonfruit,fruit,local,30.41,organic
+134,Banana,fruit,imported,17.12,organic
+135,Lemon,fruit,imported,58.72,organic
+136,Tangerine,fruit,imported,42.69,inorganic
+137,Grape,fruit,imported,18.9,organic
+138,Date,fruit,local,93.23,organic
+139,Pear,fruit,imported,53.64,inorganic
+140,Pineapple,fruit,imported,46.45,inorganic
+141,Watermelon,fruit,local,81.18,inorganic
+142,Orange,fruit,local,55.88,organic
+143,Fig,fruit,imported,83.25,organic
+144,Lemon,fruit,imported,77.61,organic
+145,Plum,fruit,imported,91.9,organic
+146,Raspberry,fruit,imported,50.63,organic
+147,Blueberry,fruit,imported,47.86,organic
+148,Pineapple,fruit,local,82.45,inorganic
+149,Cherry,fruit,local,49.01,inorganic
+150,Tangerine,fruit,local,75.28,organic
+151,Orange,fruit,local,5.94,organic
+152,Blueberry,fruit,imported,24.7,inorganic
+153,Cherry,fruit,local,84.83,organic
+154,Blueberry,fruit,local,34.57,inorganic
+155,Apricot,fruit,imported,1.54,organic
+156,Fig,fruit,imported,38.5,inorganic
+157,Grape,fruit,imported,8.26,organic
+158,Pomegranate,fruit,imported,12.13,organic
+159,Watermelon,fruit,imported,7.55,inorganic
+160,Dragonfruit,fruit,imported,79.4,inorganic
+161,Cherry,fruit,imported,87.56,organic
+162,Raspberry,fruit,local,3.51,inorganic
+163,Pear,fruit,local,54.74,inorganic
+164,Mango,fruit,local,99.69,inorganic
+165,Raspberry,fruit,local,31.14,organic
+166,Grape,fruit,imported,98.54,inorganic
+167,Blackberry,fruit,imported,13.36,organic
+168,Radish,vegetable,imported,75.49,organic
+169,Bell Pepper,vegetable,imported,4.21,organic
+170,Cauliflower,vegetable,imported,33.66,organic
+171,Green Bean,vegetable,local,91.48,inorganic
+172,Zucchini,vegetable,imported,85.92,inorganic
+173,Beet,vegetable,local,83.54,inorganic
+174,Broccoli,vegetable,imported,43.79,inorganic
+175,Lettuce,vegetable,local,12.99,organic
+176,Spinach,vegetable,imported,66.0,inorganic
+177,Potato,vegetable,local,26.96,organic
+178,Cauliflower,vegetable,imported,69.24,inorganic
+179,Garlic,vegetable,local,90.75,inorganic
+180,Eggplant,vegetable,imported,50.96,organic
+181,Asparagus,vegetable,imported,8.85,inorganic
+182,Potato,vegetable,imported,74.32,organic
+183,Eggplant,vegetable,local,27.04,organic
+184,Kale,vegetable,local,53.86,organic
+185,Leek,vegetable,imported,86.17,organic
+186,Artichoke,vegetable,imported,86.29,inorganic
+187,Beet,vegetable,imported,82.71,organic
+188,Cucumber,vegetable,imported,25.06,inorganic
+189,Onion,vegetable,local,98.08,organic
+190,Turnip,vegetable,imported,88.89,inorganic
+191,Celery,vegetable,local,78.63,inorganic
+192,Potato,vegetable,local,53.92,inorganic
+193,Eggplant,vegetable,local,30.68,organic
+194,Celery,vegetable,local,14.59,inorganic
+195,Turnip,vegetable,local,97.72,organic
+196,Jalapeño,vegetable,imported,88.03,inorganic
+197,Asparagus,vegetable,imported,10.92,organic
+198,Green Bean,vegetable,local,27.88,organic
+199,Jalapeño,vegetable,local,81.23,inorganic
+200,Mushroom,vegetable,local,17.91,inorganic
+201,Cucumber,vegetable,imported,2.1,organic
+202,Cauliflower,vegetable,local,73.89,inorganic
+203,Cabbage,vegetable,imported,10.42,organic
+204,Asparagus,vegetable,imported,19.05,organic
+205,Turnip,vegetable,imported,43.6,inorganic
+206,Pea,vegetable,imported,54.31,inorganic
+207,Tomato,vegetable,local,33.76,organic
+208,Pea,vegetable,local,76.79,organic
+209,Turnip,vegetable,local,92.19,organic
+210,Asparagus,vegetable,imported,28.48,organic
+211,Green Bean,vegetable,local,68.79,organic
+212,Cucumber,vegetable,local,70.47,organic
+213,Asparagus,vegetable,local,8.59,organic
+214,Radish,vegetable,local,87.15,organic
+215,Bell Pepper,vegetable,imported,88.6,inorganic
+216,Spinach,vegetable,local,23.21,organic
+217,Carrot,vegetable,imported,33.64,organic
+218,Celery,vegetable,imported,89.41,organic
+219,Arugula,vegetable,local,94.16,organic
+220,Artichoke,vegetable,local,39.33,organic
+221,Mushroom,vegetable,local,83.08,inorganic
+222,Kale,vegetable,local,34.42,organic
+223,Bell Pepper,vegetable,imported,51.4,inorganic
+224,Kale,vegetable,local,38.77,organic
+225,Brussels Sprout,vegetable,imported,39.31,inorganic
+226,Cabbage,vegetable,imported,60.93,inorganic
+227,Leek,vegetable,local,64.2,inorganic
+228,Kale,vegetable,imported,67.37,inorganic
+229,Pea,vegetable,imported,72.91,organic
+230,Pea,vegetable,local,80.91,organic
+231,Kale,vegetable,imported,85.96,inorganic
+232,Sweet Potato,vegetable,imported,62.02,inorganic
+233,Celery,vegetable,local,0.82,organic
+234,Turnip,vegetable,local,54.31,organic
+235,Lettuce,vegetable,local,31.2,inorganic
+236,Spinach,vegetable,local,53.7,organic
+237,Tomato,vegetable,imported,70.54,organic
+238,Eggplant,vegetable,imported,97.68,inorganic
+239,Cabbage,vegetable,local,21.02,organic
+240,Potato,vegetable,local,96.99,inorganic
+241,Sweet Potato,vegetable,imported,13.18,inorganic
+242,Carrot,vegetable,imported,93.56,organic
+243,Radish,vegetable,local,43.2,inorganic
+244,Zucchini,vegetable,local,73.34,organic
+245,Radish,vegetable,local,74.28,inorganic
+246,Artichoke,vegetable,imported,73.5,organic
+247,Asparagus,vegetable,imported,56.79,inorganic
+248,Celery,vegetable,imported,27.1,organic
+249,Zucchini,vegetable,imported,89.14,organic
+250,Arugula,vegetable,local,7.11,inorganic
+251,Sweet Potato,vegetable,imported,93.56,inorganic
+252,Radish,vegetable,imported,69.13,organic
+253,Asparagus,vegetable,local,17.12,inorganic
+254,Radish,vegetable,local,96.09,organic
+255,Artichoke,vegetable,local,86.97,organic
+256,Carrot,vegetable,imported,25.98,organic
+257,Spinach,vegetable,imported,10.73,organic
+258,Asparagus,vegetable,imported,86.18,inorganic
+259,Lettuce,vegetable,imported,93.24,organic
+260,Mushroom,vegetable,local,82.81,inorganic
+261,Artichoke,vegetable,local,48.91,inorganic
+262,Artichoke,vegetable,imported,36.65,organic
+263,Radish,vegetable,imported,48.22,inorganic
+264,Brussels Sprout,vegetable,local,15.85,inorganic
+265,Radish,vegetable,imported,49.99,inorganic
+266,Eggplant,vegetable,local,70.64,organic
+267,Leek,vegetable,imported,43.41,organic
+268,Asparagus,vegetable,imported,30.34,organic
+269,Celery,vegetable,local,6.03,organic
+270,Brussels Sprout,vegetable,imported,98.85,organic
+271,Artichoke,vegetable,local,27.14,organic
+272,Green Bean,vegetable,imported,25.01,inorganic
+273,Celery,vegetable,imported,23.87,inorganic
+274,Brussels Sprout,vegetable,imported,84.28,inorganic
+275,Celery,vegetable,imported,61.99,inorganic
+276,Celery,vegetable,imported,26.18,organic
+277,Potato,vegetable,imported,91.71,organic
+278,Brussels Sprout,vegetable,imported,8.3,inorganic
+279,Lettuce,vegetable,local,93.75,inorganic
+280,Turnip,vegetable,imported,73.75,inorganic
+281,Sweet Potato,vegetable,imported,75.49,organic
+282,Brussels Sprout,vegetable,imported,26.9,organic
+283,Kale,vegetable,local,68.24,inorganic
+284,Kale,vegetable,imported,27.69,inorganic
+285,Spinach,vegetable,local,49.05,inorganic
+286,Cabbage,vegetable,local,37.2,organic
+287,Arugula,vegetable,local,82.89,inorganic
+288,Spinach,vegetable,local,70.85,inorganic
+289,Leek,vegetable,imported,42.97,organic
+290,Onion,vegetable,local,43.28,organic
+291,Spinach,vegetable,local,35.27,inorganic
+292,Eggplant,vegetable,local,98.36,inorganic
+293,Cucumber,vegetable,imported,65.58,organic
+294,Radish,vegetable,imported,48.05,organic
+295,Turnip,vegetable,imported,94.71,organic
+296,Cabbage,vegetable,local,3.74,inorganic
+297,Beet,vegetable,local,52.28,organic
+298,Zucchini,vegetable,local,3.69,organic
+299,Radish,vegetable,imported,52.56,inorganic
+300,Cauliflower,vegetable,imported,6.95,organic
+301,Beet,vegetable,imported,63.15,organic
+302,Tomato,vegetable,imported,47.35,inorganic
+303,Jalapeño,vegetable,imported,38.78,organic
+304,Eggplant,vegetable,local,79.96,inorganic
+305,Potato,vegetable,imported,7.95,organic
+306,Cucumber,vegetable,imported,3.11,organic
+307,Kale,vegetable,local,57.59,inorganic
+308,Sweet Potato,vegetable,local,52.91,inorganic
+309,Kale,vegetable,imported,20.72,inorganic
+310,Asparagus,vegetable,imported,98.95,inorganic
+311,Leek,vegetable,imported,59.5,organic
+312,Potato,vegetable,imported,65.36,organic
+313,Asparagus,vegetable,local,64.48,inorganic
+314,Zucchini,vegetable,imported,89.75,organic
+315,Broccoli,vegetable,local,4.42,organic
+316,Zucchini,vegetable,imported,78.54,inorganic
+317,Radish,vegetable,local,81.99,organic
+318,Broccoli,vegetable,imported,65.3,inorganic
+319,Cabbage,vegetable,local,36.71,inorganic
+320,Spinach,vegetable,local,42.18,inorganic
+321,Garlic,vegetable,local,66.61,inorganic
+322,Jalapeño,vegetable,local,8.58,organic
+323,Cauliflower,vegetable,imported,11.2,inorganic
+324,Potato,vegetable,imported,98.03,organic
+325,Garlic,vegetable,imported,56.0,organic
+326,Pea,vegetable,imported,59.68,organic
+327,Beet,vegetable,local,80.79,organic
+328,Radish,vegetable,local,17.52,inorganic
+329,Bell Pepper,vegetable,imported,31.22,organic
+330,Eggplant,vegetable,imported,32.98,inorganic
+331,Artichoke,vegetable,imported,45.51,organic
+332,Garlic,vegetable,local,47.26,inorganic
+333,Sweet Potato,vegetable,imported,14.94,organic
+334,Tomato,vegetable,local,75.23,organic
+335,Parmesan,dairy,imported,68.87,organic
+336,Greek Yogurt,dairy,local,33.94,inorganic
+337,Heavy Cream,dairy,imported,98.73,organic
+338,Heavy Cream,dairy,imported,94.74,organic
+339,Heavy Cream,dairy,local,35.75,inorganic
+340,Greek Yogurt,dairy,local,67.18,organic
+341,Provolone,dairy,imported,58.56,organic
+342,Swiss,dairy,imported,32.83,inorganic
+343,Ice Cream,dairy,local,46.31,inorganic
+344,Brie,dairy,imported,7.14,organic
+345,Heavy Cream,dairy,local,23.11,inorganic
+346,Provolone,dairy,imported,71.8,organic
+347,Mozzarella,dairy,local,90.09,inorganic
+348,Provolone,dairy,imported,92.59,inorganic
+349,Cheddar,dairy,imported,59.79,inorganic
+350,Provolone,dairy,imported,20.46,inorganic
+351,Swiss,dairy,local,64.85,inorganic
+352,Sour Cream,dairy,local,12.73,inorganic
+353,Heavy Cream,dairy,local,80.99,inorganic
+354,Feta,dairy,imported,43.06,inorganic
+355,Yogurt,dairy,local,59.17,organic
+356,Eggs,dairy,imported,34.66,inorganic
+357,Brie,dairy,imported,87.75,inorganic
+358,Yogurt,dairy,local,35.59,organic
+359,Parmesan,dairy,local,59.51,organic
+360,Sour Cream,dairy,local,5.42,inorganic
+361,Whipped Cream,dairy,imported,22.1,inorganic
+362,Greek Yogurt,dairy,imported,81.71,inorganic
+363,Heavy Cream,dairy,local,96.97,inorganic
+364,Cheddar,dairy,local,36.47,organic
+365,Cream Cheese,dairy,imported,43.87,organic
+366,Ice Cream,dairy,local,17.89,inorganic
+367,Goat,dairy,imported,58.2,inorganic
+368,Whipped Cream,dairy,imported,36.37,inorganic
+369,Blue,dairy,local,0.99,inorganic
+370,Greek Yogurt,dairy,local,75.12,inorganic
+371,Greek Yogurt,dairy,imported,68.95,inorganic
+372,Ricotta,dairy,local,6.74,organic
+373,Blue,dairy,local,31.08,organic
+374,Heavy Cream,dairy,imported,95.86,inorganic
+375,Greek Yogurt,dairy,local,13.29,organic
+376,Cheddar,dairy,local,13.17,organic
+377,Brie,dairy,local,19.83,organic
+378,Eggs,dairy,local,47.04,organic
+379,Mozzarella,dairy,imported,52.0,inorganic
+380,Cream Cheese,dairy,imported,17.6,organic
+381,Milk,dairy,local,15.61,inorganic
+382,Heavy Cream,dairy,imported,0.33,inorganic
+383,Butter,dairy,imported,44.69,organic
+384,Sour Cream,dairy,imported,2.05,organic
+385,Whipped Cream,dairy,imported,4.56,inorganic
+386,Provolone,dairy,imported,29.32,inorganic
+387,Goat,dairy,imported,25.99,inorganic
+388,Heavy Cream,dairy,local,71.19,organic
+389,Cream Cheese,dairy,imported,70.22,inorganic
+390,Heavy Cream,dairy,imported,66.42,organic
+391,Brie,dairy,local,33.23,organic
+392,Feta,dairy,local,3.35,organic
+393,Cheddar,dairy,imported,51.7,organic
+394,Ice Cream,dairy,local,81.98,organic
+395,Swiss,dairy,imported,15.04,inorganic
+396,Butter,dairy,imported,5.66,inorganic
+397,Swiss,dairy,local,14.45,inorganic
+398,Brie,dairy,local,91.49,inorganic
+399,Provolone,dairy,imported,26.11,organic
+400,Ricotta,dairy,local,86.67,organic
+401,Ricotta,dairy,imported,86.73,inorganic
+402,Goat,dairy,imported,39.3,inorganic
+403,Swiss,dairy,local,7.63,inorganic
+404,Greek Yogurt,dairy,local,25.24,inorganic
+405,Butter,dairy,local,50.8,inorganic
+406,Cream Cheese,dairy,imported,93.74,organic
+407,Brie,dairy,imported,22.97,organic
+408,Provolone,dairy,imported,11.03,inorganic
+409,Heavy Cream,dairy,local,30.15,inorganic
+410,Cheddar,dairy,imported,29.78,inorganic
+411,Cream Cheese,dairy,local,77.42,organic
+412,Ricotta,dairy,local,42.32,organic
+413,Yogurt,dairy,local,86.38,inorganic
+414,Milk,dairy,local,67.86,inorganic
+415,Brie,dairy,imported,57.31,inorganic
+416,Milk,dairy,imported,5.02,organic
+417,Yogurt,dairy,imported,20.1,organic
+418,Blue,dairy,imported,83.4,organic
+419,Cream Cheese,dairy,local,86.98,organic
+420,Sour Cream,dairy,imported,59.47,organic
+421,Greek Yogurt,dairy,imported,92.75,organic
+422,Yogurt,dairy,imported,9.88,organic
+423,Brie,dairy,imported,71.37,organic
+424,Ricotta,dairy,local,31.64,organic
+425,Mozzarella,dairy,imported,42.26,organic
+426,Mozzarella,dairy,local,49.81,organic
+427,Heavy Cream,dairy,local,83.52,organic
+428,Heavy Cream,dairy,local,14.88,inorganic
+429,Ice Cream,dairy,local,38.66,organic
+430,Ricotta,dairy,local,66.41,organic
+431,Cheddar,dairy,local,19.36,inorganic
+432,Whipped Cream,dairy,local,67.42,organic
+433,Brie,dairy,local,72.32,inorganic
+434,Heavy Cream,dairy,imported,58.69,organic
+435,Feta,dairy,local,4.65,organic
+436,Swiss,dairy,local,68.51,inorganic
+437,Cheddar,dairy,local,4.95,organic
+438,Eggs,dairy,local,53.51,inorganic
+439,Butter,dairy,imported,16.57,organic
+440,Heavy Cream,dairy,local,78.09,organic
+441,Whipped Cream,dairy,imported,23.5,organic
+442,Brie,dairy,imported,30.82,inorganic
+443,Goat,dairy,local,37.74,organic
+444,Greek Yogurt,dairy,imported,52.7,inorganic
+445,Parmesan,dairy,imported,38.35,organic
+446,Parmesan,dairy,local,37.81,inorganic
+447,Brie,dairy,local,46.45,inorganic
+448,Greek Yogurt,dairy,local,26.65,inorganic
+449,Yogurt,dairy,imported,40.72,organic
+450,Greek Yogurt,dairy,imported,65.77,organic
+451,Brie,dairy,imported,84.99,inorganic
+452,Sour Cream,dairy,local,51.44,inorganic
+453,Yogurt,dairy,local,36.33,inorganic
+454,Heavy Cream,dairy,local,81.42,organic
+455,Ricotta,dairy,local,97.37,inorganic
+456,Ice Cream,dairy,local,38.16,organic
+457,Cheddar,dairy,local,16.69,organic
+458,Butter,dairy,imported,74.13,inorganic
+459,Whipped Cream,dairy,imported,5.83,organic
+460,Provolone,dairy,imported,49.07,inorganic
+461,Mozzarella,dairy,imported,70.45,organic
+462,Brie,dairy,imported,55.75,organic
+463,Ricotta,dairy,imported,14.52,inorganic
+464,Swiss,dairy,local,73.08,inorganic
+465,Milk,dairy,imported,1.49,inorganic
+466,Feta,dairy,local,28.74,organic
+467,Heavy Cream,dairy,local,2.16,organic
+468,Provolone,dairy,local,92.56,organic
+469,Swiss,dairy,local,34.52,inorganic
+470,Cream Cheese,dairy,imported,30.3,inorganic
+471,Brie,dairy,imported,39.48,organic
+472,Yogurt,dairy,local,5.83,organic
+473,Milk,dairy,imported,4.27,organic
+474,Cream Cheese,dairy,imported,10.36,organic
+475,Cheddar,dairy,local,88.15,inorganic
+476,Ricotta,dairy,imported,93.87,inorganic
+477,Ricotta,dairy,local,65.55,inorganic
+478,Heavy Cream,dairy,local,42.34,inorganic
+479,Ice Cream,dairy,imported,18.45,inorganic
+480,Cheddar,dairy,imported,6.08,organic
+481,Cheddar,dairy,local,52.69,organic
+482,Greek Yogurt,dairy,imported,89.18,organic
+483,Provolone,dairy,imported,5.02,inorganic
+484,Feta,dairy,imported,66.41,inorganic
+485,Mozzarella,dairy,local,87.55,inorganic
+486,Eggs,dairy,local,10.64,inorganic
+487,Cream Cheese,dairy,local,45.53,inorganic
+488,Butter,dairy,imported,9.23,organic
+489,Swiss,dairy,imported,20.11,inorganic
+490,Cream Cheese,dairy,local,64.41,inorganic
+491,Yogurt,dairy,imported,99.1,inorganic
+492,Cream Cheese,dairy,imported,7.2,inorganic
+493,Mozzarella,dairy,local,6.86,inorganic
+494,Eggs,dairy,local,90.6,inorganic
+495,Ice Cream,dairy,local,59.4,organic
+496,Goat,dairy,local,35.81,inorganic
+497,Ricotta,dairy,imported,6.76,organic
+498,Parmesan,dairy,local,56.5,inorganic
+499,Eggs,dairy,local,11.81,organic
+500,Mozzarella,dairy,local,69.96,organic
+501,Eggs,dairy,imported,4.18,organic
+502,Veal,meat,imported,17.32,inorganic
+503,Sausage,meat,local,40.32,organic
+504,Duck,meat,imported,83.03,inorganic
+505,Duck,meat,imported,50.34,inorganic
+506,Rabbit,meat,local,70.8,organic
+507,Lamb,meat,imported,1.57,organic
+508,Pork,meat,local,3.5,organic
+509,Bacon,meat,imported,37.92,organic
+510,Salami,meat,local,16.97,inorganic
+511,Ham,meat,local,98.12,inorganic
+512,Venison,meat,imported,49.22,organic
+513,Turkey,meat,local,9.88,inorganic
+514,Pork,meat,local,25.78,organic
+515,Veal,meat,imported,28.51,organic
+516,Rabbit,meat,local,52.59,inorganic
+517,Veal,meat,imported,15.99,inorganic
+518,Rabbit,meat,local,73.08,inorganic
+519,Pork,meat,imported,27.3,organic
+520,Rabbit,meat,local,11.17,inorganic
+521,Goat,meat,local,11.83,organic
+522,Ham,meat,imported,85.4,inorganic
+523,Rabbit,meat,local,22.43,organic
+524,Bacon,meat,local,3.84,inorganic
+525,Bacon,meat,imported,31.39,inorganic
+526,Sausage,meat,imported,59.93,organic
+527,Rabbit,meat,local,59.56,inorganic
+528,Lamb,meat,local,78.61,organic
+529,Mutton,meat,local,29.01,inorganic
+530,Turkey,meat,local,46.32,inorganic
+531,Lamb,meat,imported,86.85,organic
+532,Lamb,meat,imported,8.28,organic
+533,Mutton,meat,local,31.49,inorganic
+534,Bacon,meat,local,91.64,organic
+535,Bacon,meat,imported,17.76,inorganic
+536,Mutton,meat,local,75.48,inorganic
+537,Goat,meat,local,22.5,inorganic
+538,Veal,meat,imported,27.12,inorganic
+539,Duck,meat,imported,53.03,organic
+540,Bacon,meat,imported,23.47,organic
+541,Duck,meat,imported,83.22,inorganic
+542,Ham,meat,local,52.32,organic
+543,Mutton,meat,local,47.0,organic
+544,Pork,meat,local,47.06,organic
+545,Turkey,meat,imported,82.21,inorganic
+546,Bacon,meat,imported,1.17,organic
+547,Beef,meat,imported,12.29,inorganic
+548,Lamb,meat,imported,19.74,organic
+549,Salami,meat,local,84.34,inorganic
+550,Venison,meat,imported,12.29,inorganic
+551,Goat,meat,imported,89.76,organic
+552,Sausage,meat,local,1.84,inorganic
+553,Salami,meat,local,14.07,organic
+554,Sausage,meat,imported,93.1,inorganic
+555,Bison,meat,imported,35.11,organic
+556,Bison,meat,imported,86.65,inorganic
+557,Salami,meat,imported,1.52,inorganic
+558,Mutton,meat,local,70.79,organic
+559,Pork,meat,imported,79.66,inorganic
+560,Salami,meat,imported,39.32,inorganic
+561,Sausage,meat,imported,27.58,organic
+562,Bacon,meat,imported,7.25,organic
+563,Rabbit,meat,local,76.88,organic
+564,Salami,meat,imported,82.2,organic
+565,Lamb,meat,local,95.88,inorganic
+566,Bison,meat,local,68.69,inorganic
+567,Salami,meat,local,34.05,inorganic
+568,Bacon,meat,local,30.41,inorganic
+569,Salami,meat,imported,49.09,inorganic
+570,Bacon,meat,imported,13.93,organic
+571,Veal,meat,local,39.71,inorganic
+572,Lamb,meat,local,43.22,organic
+573,Sausage,meat,local,74.64,organic
+574,Venison,meat,imported,11.47,organic
+575,Duck,meat,local,27.97,inorganic
+576,Turkey,meat,imported,82.98,inorganic
+577,Turkey,meat,imported,36.56,inorganic
+578,Bison,meat,local,40.14,inorganic
+579,Beef,meat,local,91.02,inorganic
+580,Turkey,meat,local,23.52,organic
+581,Chicken,meat,local,81.17,inorganic
+582,Veal,meat,local,55.42,inorganic
+583,Mutton,meat,imported,14.44,organic
+584,Venison,meat,imported,20.74,organic
+585,Veal,meat,imported,80.83,inorganic
+586,Beef,meat,imported,77.76,inorganic
+587,Pork,meat,local,1.21,inorganic
+588,Pork,meat,imported,34.22,inorganic
+589,Turkey,meat,imported,72.39,organic
+590,Ham,meat,imported,72.3,inorganic
+591,Pork,meat,imported,47.11,organic
+592,Pork,meat,local,43.67,organic
+593,Rabbit,meat,imported,69.5,organic
+594,Goat,meat,imported,27.92,inorganic
+595,Chicken,meat,local,80.25,inorganic
+596,Pork,meat,imported,62.1,organic
+597,Pork,meat,imported,65.01,inorganic
+598,Salami,meat,imported,7.06,organic
+599,Turkey,meat,imported,99.84,organic
+600,Bison,meat,local,25.67,organic
+601,Veal,meat,imported,29.92,organic
+602,Salami,meat,local,24.39,organic
+603,Bacon,meat,imported,30.55,inorganic
+604,Pork,meat,local,73.82,inorganic
+605,Pork,meat,local,67.86,inorganic
+606,Rabbit,meat,imported,21.98,organic
+607,Chicken,meat,local,82.2,inorganic
+608,Ham,meat,imported,73.03,organic
+609,Bacon,meat,local,14.82,inorganic
+610,Duck,meat,local,43.48,inorganic
+611,Venison,meat,imported,89.15,inorganic
+612,Venison,meat,imported,9.8,organic
+613,Bison,meat,local,95.25,organic
+614,Bison,meat,imported,61.3,inorganic
+615,Beef,meat,imported,56.56,organic
+616,Turkey,meat,imported,5.7,organic
+617,Beef,meat,imported,46.5,organic
+618,Pork,meat,imported,5.76,inorganic
+619,Sausage,meat,imported,65.5,inorganic
+620,Lamb,meat,imported,30.97,organic
+621,Chicken,meat,local,99.72,inorganic
+622,Bison,meat,local,5.16,organic
+623,Goat,meat,local,72.55,organic
+624,Bacon,meat,local,18.62,inorganic
+625,Bacon,meat,imported,48.71,organic
+626,Bison,meat,imported,81.72,inorganic
+627,Rabbit,meat,imported,7.83,inorganic
+628,Goat,meat,imported,89.04,inorganic
+629,Bacon,meat,imported,0.11,inorganic
+630,Beef,meat,local,45.24,inorganic
+631,Ham,meat,imported,60.27,organic
+632,Lamb,meat,imported,93.87,organic
+633,Beef,meat,imported,68.89,organic
+634,Bison,meat,local,8.25,organic
+635,Chicken,meat,local,40.61,inorganic
+636,Goat,meat,imported,2.7,organic
+637,Rabbit,meat,local,77.51,organic
+638,Chicken,meat,imported,35.47,inorganic
+639,Veal,meat,imported,45.83,inorganic
+640,Bison,meat,local,23.61,organic
+641,Chicken,meat,imported,90.03,organic
+642,Goat,meat,local,47.86,inorganic
+643,Ham,meat,imported,22.35,inorganic
+644,Beef,meat,imported,67.53,organic
+645,Turkey,meat,local,3.4,inorganic
+646,Beef,meat,local,87.43,inorganic
+647,Ham,meat,imported,85.5,organic
+648,Salami,meat,local,36.3,organic
+649,Sausage,meat,local,98.98,organic
+650,Beef,meat,local,48.92,inorganic
+651,Chicken,meat,local,68.14,organic
+652,Turkey,meat,local,68.9,inorganic
+653,Salami,meat,local,30.88,organic
+654,Ham,meat,local,9.9,organic
+655,Bison,meat,local,0.76,inorganic
+656,Salami,meat,local,91.92,organic
+657,Venison,meat,imported,81.88,organic
+658,Turkey,meat,local,18.86,organic
+659,Turkey,meat,imported,69.62,inorganic
+660,Beef,meat,imported,25.85,inorganic
+661,Pork,meat,local,49.62,organic
+662,Beef,meat,imported,40.67,organic
+663,Venison,meat,local,98.57,inorganic
+664,Bison,meat,local,62.62,inorganic
+665,Sausage,meat,local,54.42,organic
+666,Bison,meat,local,38.78,inorganic
+667,Duck,meat,imported,26.64,inorganic
+668,Sausage,meat,local,74.41,organic
+669,Salmon,seafood,imported,83.94,organic
+670,Salmon,seafood,imported,66.82,organic
+671,Grouper,seafood,local,94.17,inorganic
+672,Oyster,seafood,imported,40.46,organic
+673,Grouper,seafood,local,32.24,organic
+674,Tuna,seafood,local,89.35,inorganic
+675,Scallop,seafood,local,86.23,organic
+676,Anchovy,seafood,imported,99.2,inorganic
+677,Squid,seafood,local,45.67,organic
+678,Crab,seafood,imported,43.74,inorganic
+679,Grouper,seafood,imported,95.78,organic
+680,Anchovy,seafood,imported,51.16,organic
+681,Swordfish,seafood,imported,67.38,inorganic
+682,Lobster,seafood,imported,35.25,organic
+683,Prawn,seafood,imported,84.29,organic
+684,Shrimp,seafood,imported,96.32,organic
+685,Salmon,seafood,imported,0.35,inorganic
+686,Octopus,seafood,imported,95.15,inorganic
+687,Pollock,seafood,local,95.44,organic
+688,Snapper,seafood,local,4.5,organic
+689,Crab,seafood,local,80.96,organic
+690,Prawn,seafood,imported,44.3,organic
+691,Prawn,seafood,local,12.62,organic
+692,Tuna,seafood,imported,7.58,inorganic
+693,Squid,seafood,local,27.58,organic
+694,Anchovy,seafood,local,0.11,organic
+695,Cod,seafood,imported,45.11,inorganic
+696,Swordfish,seafood,local,66.22,organic
+697,Oyster,seafood,local,16.43,inorganic
+698,Squid,seafood,local,71.27,organic
+699,Scallop,seafood,imported,35.16,inorganic
+700,Mussel,seafood,imported,80.02,inorganic
+701,Shrimp,seafood,local,46.16,inorganic
+702,Haddock,seafood,local,0.73,organic
+703,Octopus,seafood,local,47.11,organic
+704,Haddock,seafood,local,96.55,organic
+705,Bass,seafood,local,34.91,inorganic
+706,Lobster,seafood,local,45.05,inorganic
+707,Crab,seafood,local,45.79,inorganic
+708,Oyster,seafood,local,31.66,organic
+709,Cod,seafood,local,66.14,organic
+710,Oyster,seafood,imported,35.65,inorganic
+711,Snapper,seafood,local,51.53,organic
+712,Oyster,seafood,local,41.07,inorganic
+713,Shrimp,seafood,imported,20.52,organic
+714,Trout,seafood,local,82.01,organic
+715,Swordfish,seafood,local,26.34,inorganic
+716,Mussel,seafood,local,93.24,inorganic
+717,Halibut,seafood,local,56.56,organic
+718,Bass,seafood,local,36.6,organic
+719,Snapper,seafood,local,82.19,organic
+720,Octopus,seafood,imported,45.26,organic
+721,Halibut,seafood,imported,41.76,inorganic
+722,Sardine,seafood,local,4.77,inorganic
+723,Shrimp,seafood,local,11.65,inorganic
+724,Clam,seafood,imported,6.34,organic
+725,Octopus,seafood,local,90.06,inorganic
+726,Salmon,seafood,local,41.29,inorganic
+727,Anchovy,seafood,imported,50.87,inorganic
+728,Scallop,seafood,local,35.02,inorganic
+729,Squid,seafood,imported,23.83,inorganic
+730,Scallop,seafood,local,21.66,inorganic
+731,Salmon,seafood,imported,19.14,inorganic
+732,Scallop,seafood,imported,6.43,inorganic
+733,Sardine,seafood,imported,32.94,inorganic
+734,Haddock,seafood,local,35.86,organic
+735,Cod,seafood,local,13.01,organic
+736,Cod,seafood,imported,80.98,organic
+737,Octopus,seafood,local,27.3,organic
+738,Halibut,seafood,local,16.38,organic
+739,Prawn,seafood,imported,0.47,organic
+740,Prawn,seafood,local,65.24,inorganic
+741,Cod,seafood,imported,1.28,organic
+742,Sardine,seafood,local,86.41,organic
+743,Scallop,seafood,imported,15.74,inorganic
+744,Cod,seafood,imported,68.14,organic
+745,Lobster,seafood,local,15.71,organic
+746,Grouper,seafood,local,89.23,inorganic
+747,Tuna,seafood,imported,6.57,organic
+748,Halibut,seafood,imported,13.55,organic
+749,Bass,seafood,local,49.0,organic
+750,Tuna,seafood,imported,54.71,inorganic
+751,Lobster,seafood,local,78.69,inorganic
+752,Scallop,seafood,local,20.3,organic
+753,Mussel,seafood,local,79.79,organic
+754,Bass,seafood,imported,38.9,inorganic
+755,Oyster,seafood,imported,32.37,inorganic
+756,Haddock,seafood,imported,47.02,organic
+757,Trout,seafood,imported,54.36,organic
+758,Salmon,seafood,local,12.31,inorganic
+759,Swordfish,seafood,imported,90.67,organic
+760,Tuna,seafood,imported,59.88,inorganic
+761,Grouper,seafood,local,18.71,organic
+762,Anchovy,seafood,local,45.6,organic
+763,Halibut,seafood,local,37.35,organic
+764,Clam,seafood,local,48.88,inorganic
+765,Swordfish,seafood,imported,25.28,organic
+766,Lobster,seafood,local,26.42,organic
+767,Anchovy,seafood,imported,53.28,organic
+768,Snapper,seafood,local,16.89,organic
+769,Trout,seafood,imported,63.04,inorganic
+770,Halibut,seafood,imported,6.72,inorganic
+771,Scallop,seafood,local,22.53,organic
+772,Crab,seafood,imported,66.1,organic
+773,Oyster,seafood,local,14.08,inorganic
+774,Snapper,seafood,imported,0.11,organic
+775,Cod,seafood,local,42.23,inorganic
+776,Mussel,seafood,imported,62.41,organic
+777,Clam,seafood,local,93.72,organic
+778,Octopus,seafood,local,67.25,inorganic
+779,Bass,seafood,imported,4.81,inorganic
+780,Mussel,seafood,local,72.78,organic
+781,Bass,seafood,imported,66.3,organic
+782,Halibut,seafood,imported,88.23,inorganic
+783,Mussel,seafood,imported,6.26,organic
+784,Octopus,seafood,local,91.35,organic
+785,Prawn,seafood,local,83.61,organic
+786,Scallop,seafood,imported,68.35,organic
+787,Grouper,seafood,imported,2.87,inorganic
+788,Snapper,seafood,local,95.67,organic
+789,Anchovy,seafood,local,24.82,inorganic
+790,Octopus,seafood,local,94.38,inorganic
+791,Grouper,seafood,local,13.63,organic
+792,Haddock,seafood,imported,94.17,inorganic
+793,Clam,seafood,imported,56.43,organic
+794,Prawn,seafood,imported,88.31,inorganic
+795,Clam,seafood,local,39.44,organic
+796,Salmon,seafood,local,35.19,inorganic
+797,Cod,seafood,local,17.17,organic
+798,Anchovy,seafood,imported,2.17,inorganic
+799,Crab,seafood,local,78.16,organic
+800,Crab,seafood,imported,73.34,organic
+801,Oyster,seafood,local,59.43,organic
+802,Shrimp,seafood,local,27.7,inorganic
+803,Crab,seafood,local,23.95,organic
+804,Cod,seafood,local,67.37,organic
+805,Squid,seafood,imported,43.02,inorganic
+806,Scallop,seafood,imported,16.54,inorganic
+807,Oyster,seafood,imported,24.04,organic
+808,Octopus,seafood,imported,1.76,inorganic
+809,Oyster,seafood,local,1.35,inorganic
+810,Tuna,seafood,local,74.21,organic
+811,Sardine,seafood,imported,9.35,organic
+812,Snapper,seafood,imported,77.87,inorganic
+813,Squid,seafood,imported,76.24,organic
+814,Clam,seafood,local,88.3,organic
+815,Halibut,seafood,imported,73.33,organic
+816,Tuna,seafood,imported,67.34,inorganic
+817,Scallop,seafood,imported,14.14,inorganic
+818,Trout,seafood,local,21.06,inorganic
+819,Shrimp,seafood,imported,84.8,inorganic
+820,Crab,seafood,imported,59.03,organic
+821,Octopus,seafood,imported,58.51,inorganic
+822,Clam,seafood,local,42.22,organic
+823,Sardine,seafood,imported,8.79,inorganic
+824,Swordfish,seafood,local,34.85,organic
+825,Crab,seafood,imported,64.16,organic
+826,Mussel,seafood,imported,92.08,inorganic
+827,Snapper,seafood,local,26.7,inorganic
+828,Tuna,seafood,local,47.05,inorganic
+829,Scallop,seafood,local,38.11,organic
+830,Snapper,seafood,local,74.35,organic
+831,Pollock,seafood,local,55.77,organic
+832,Snapper,seafood,imported,77.48,inorganic
+833,Scallop,seafood,imported,59.08,organic
+834,Snapper,seafood,local,66.8,organic
+835,Crab,seafood,imported,24.74,organic
+836,Baguette,bread,local,34.53,organic
+837,Kaiser Roll,bread,imported,91.82,organic
+838,White,bread,imported,88.83,inorganic
+839,Tortilla,bread,imported,52.56,inorganic
+840,English Muffin,bread,imported,36.09,organic
+841,Baguette,bread,imported,19.85,organic
+842,Pita,bread,imported,79.84,inorganic
+843,English Muffin,bread,imported,41.48,inorganic
+844,Multigrain,bread,local,75.79,inorganic
+845,White,bread,imported,40.57,inorganic
+846,Baguette,bread,local,21.2,organic
+847,Bagel,bread,local,55.51,inorganic
+848,Pita,bread,local,48.63,inorganic
+849,Hoagie Roll,bread,local,3.87,inorganic
+850,Rye,bread,imported,93.61,organic
+851,Bagel,bread,imported,33.38,organic
+852,Hoagie Roll,bread,local,32.69,organic
+853,Ciabatta Roll,bread,imported,9.74,inorganic
+854,Pita,bread,imported,68.06,inorganic
+855,Ciabatta Roll,bread,local,75.96,inorganic
+856,Multigrain,bread,local,76.74,inorganic
+857,White,bread,local,46.26,organic
+858,Ciabatta,bread,imported,68.15,inorganic
+859,Pita,bread,imported,97.29,inorganic
+860,Texas Toast,bread,imported,68.31,organic
+861,Ciabatta Roll,bread,imported,91.23,inorganic
+862,Naan,bread,local,30.25,organic
+863,Rye,bread,local,66.48,inorganic
+864,Pita,bread,imported,77.61,inorganic
+865,White,bread,local,26.31,inorganic
+866,Sub Roll,bread,local,7.5,inorganic
+867,Ciabatta Roll,bread,imported,53.56,inorganic
+868,Sourdough,bread,local,51.03,inorganic
+869,Ciabatta,bread,imported,93.64,organic
+870,Texas Toast,bread,local,21.55,inorganic
+871,Bagel,bread,imported,36.49,organic
+872,Kaiser Roll,bread,imported,68.06,organic
+873,Sub Roll,bread,local,53.9,organic
+874,Bagel,bread,local,55.38,organic
+875,English Muffin,bread,local,50.87,organic
+876,Whole Wheat,bread,local,74.12,inorganic
+877,Ciabatta Roll,bread,imported,52.07,organic
+878,Kaiser Roll,bread,local,20.68,organic
+879,White,bread,local,25.66,organic
+880,White,bread,local,4.17,inorganic
+881,Naan,bread,imported,29.73,inorganic
+882,Focaccia,bread,imported,76.63,organic
+883,Sourdough,bread,local,89.67,inorganic
+884,English Muffin,bread,imported,29.14,inorganic
+885,Tortilla,bread,imported,86.36,organic
+886,Sub Roll,bread,imported,27.47,inorganic
+887,Bagel,bread,local,76.4,organic
+888,Bagel,bread,local,0.35,inorganic
+889,Flatbread,bread,imported,95.59,organic
+890,Ciabatta,bread,imported,1.92,inorganic
+891,Multigrain,bread,local,40.29,organic
+892,Flatbread,bread,local,74.44,inorganic
+893,Whole Wheat,bread,local,34.5,organic
+894,Sourdough,bread,imported,57.39,inorganic
+895,English Muffin,bread,local,0.75,inorganic
+896,Focaccia,bread,imported,83.55,organic
+897,Multigrain,bread,imported,59.01,inorganic
+898,Kaiser Roll,bread,imported,42.59,inorganic
+899,Baguette,bread,local,57.18,inorganic
+900,Naan,bread,local,91.5,inorganic
+901,White,bread,imported,94.39,organic
+902,Kaiser Roll,bread,local,12.22,organic
+903,Naan,bread,imported,88.47,inorganic
+904,Ciabatta Roll,bread,local,83.02,inorganic
+905,English Muffin,bread,imported,7.19,organic
+906,Ciabatta,bread,local,59.32,inorganic
+907,Sourdough,bread,local,65.06,organic
+908,Focaccia,bread,imported,58.68,inorganic
+909,Whole Wheat,bread,local,89.08,inorganic
+910,White,bread,local,47.89,inorganic
+911,Multigrain,bread,local,25.36,organic
+912,Naan,bread,local,9.89,organic
+913,Texas Toast,bread,local,25.59,inorganic
+914,Ciabatta,bread,imported,3.93,inorganic
+915,Ciabatta,bread,imported,86.37,organic
+916,Flatbread,bread,local,38.69,inorganic
+917,Brioche,bread,imported,31.01,inorganic
+918,Ciabatta Roll,bread,local,91.49,inorganic
+919,English Muffin,bread,local,33.47,inorganic
+920,Sub Roll,bread,local,66.04,inorganic
+921,Rye,bread,local,88.36,organic
+922,Ciabatta,bread,imported,17.61,organic
+923,Pita,bread,local,79.46,organic
+924,Flatbread,bread,local,19.9,inorganic
+925,White,bread,local,0.88,inorganic
+926,Multigrain,bread,imported,37.07,inorganic
+927,Pita,bread,imported,60.92,organic
+928,White,bread,imported,25.36,organic
+929,Sub Roll,bread,local,13.95,inorganic
+930,Naan,bread,local,76.05,organic
+931,Hoagie Roll,bread,local,68.91,inorganic
+932,Ciabatta Roll,bread,local,79.92,inorganic
+933,White,bread,imported,30.58,inorganic
+934,Multigrain,bread,local,16.04,inorganic
+935,Focaccia,bread,local,67.19,organic
+936,Ciabatta Roll,bread,imported,2.4,inorganic
+937,Rye,bread,imported,98.14,inorganic
+938,Whole Wheat,bread,local,62.12,organic
+939,Sub Roll,bread,local,89.62,inorganic
+940,Flatbread,bread,local,71.53,inorganic
+941,Brioche,bread,imported,13.4,inorganic
+942,Sub Roll,bread,local,27.77,organic
+943,Pita,bread,local,23.2,organic
+944,Focaccia,bread,local,53.09,organic
+945,White,bread,imported,45.05,inorganic
+946,Texas Toast,bread,imported,61.83,organic
+947,Brioche,bread,local,97.9,inorganic
+948,Naan,bread,local,48.32,organic
+949,Sourdough,bread,local,8.61,organic
+950,Flatbread,bread,imported,96.63,inorganic
+951,Ciabatta Roll,bread,imported,65.18,organic
+952,Kaiser Roll,bread,local,92.47,organic
+953,Flatbread,bread,local,79.01,inorganic
+954,Pita,bread,local,48.76,inorganic
+955,Focaccia,bread,imported,5.12,inorganic
+956,Texas Toast,bread,local,83.86,inorganic
+957,Brioche,bread,imported,86.03,organic
+958,Sub Roll,bread,local,17.05,organic
+959,Naan,bread,imported,38.57,organic
+960,English Muffin,bread,local,83.0,organic
+961,English Muffin,bread,local,87.45,inorganic
+962,Sourdough,bread,local,43.37,organic
+963,Flatbread,bread,local,80.47,inorganic
+964,Kaiser Roll,bread,imported,86.89,organic
+965,Texas Toast,bread,local,43.47,inorganic
+966,Tortilla,bread,local,0.15,inorganic
+967,Baguette,bread,imported,38.08,inorganic
+968,Ciabatta,bread,imported,65.55,organic
+969,White,bread,imported,44.7,organic
+970,Multigrain,bread,imported,26.55,organic
+971,Whole Wheat,bread,local,13.47,organic
+972,Baguette,bread,local,72.1,organic
+973,Texas Toast,bread,local,1.67,inorganic
+974,Hoagie Roll,bread,imported,4.02,organic
+975,Sourdough,bread,imported,10.04,organic
+976,Ciabatta,bread,imported,21.59,inorganic
+977,Whole Wheat,bread,local,29.48,organic
+978,Flatbread,bread,imported,69.27,inorganic
+979,Whole Wheat,bread,local,53.86,inorganic
+980,Naan,bread,local,96.97,organic
+981,Ciabatta Roll,bread,imported,41.21,inorganic
+982,Ciabatta,bread,local,18.2,inorganic
+983,Tortilla,bread,imported,54.29,organic
+984,Baguette,bread,imported,79.68,inorganic
+985,Pita,bread,local,88.73,organic
+986,Ciabatta,bread,imported,69.9,organic
+987,Bagel,bread,local,25.07,inorganic
+988,Ciabatta,bread,local,83.7,inorganic
+989,Hoagie Roll,bread,local,91.37,inorganic
+990,Sub Roll,bread,imported,59.7,inorganic
+991,White,bread,imported,96.39,organic
+992,Multigrain,bread,local,70.55,organic
+993,English Muffin,bread,local,24.78,organic
+994,Ciabatta,bread,local,4.52,organic
+995,Sourdough,bread,imported,76.67,organic
+996,Brioche,bread,local,82.48,inorganic
+997,Texas Toast,bread,local,57.19,organic
+998,Pita,bread,local,21.18,organic
+999,Ciabatta Roll,bread,imported,33.92,organic
+1000,Naan,bread,imported,42.01,organic
+1001,Flatbread,bread,local,92.79,inorganic
+1002,Hoagie Roll,bread,imported,59.62,organic
