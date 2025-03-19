@@ -26,12 +26,6 @@ const App = () => {
       fetchData();
     }, []);
 
-    {
-      // Change from static sock_data to data coming from sock API
-      data?.map((products) => (
-        <Products key={products._id} data={products} /> // Change id to _id. _id is the key in the API response
-      ));
-    }
   return (
     <Router>
       <Navbar />

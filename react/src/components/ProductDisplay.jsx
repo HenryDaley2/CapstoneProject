@@ -2,7 +2,7 @@ import {useParams} from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const ProductDisplay =(props) =>{
-    const [product, setProduct] = useState({})
+    const [product, setProduct] = useState([])
     const {id} = useParams()
     useEffect(()=>{
         async function getProduct(){
@@ -19,21 +19,17 @@ const ProductDisplay =(props) =>{
             }
         }
         getProduct()
-
-        
-
-        
     },[]) 
+
+    if (!product) {
+        return <h1>Loading...</h1>
+    }
 
     return(
         <div>
-           <h1>{product.id}</h1> 
+           <h1>{product[0]?.item}</h1> 
         </div>
     )
-
-    
-
-
 }
 
 export default ProductDisplay
