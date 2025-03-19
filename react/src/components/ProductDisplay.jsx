@@ -25,11 +25,24 @@ const ProductDisplay =(props) =>{
         return <h1>Loading...</h1>
     }
 
-    return(
-        <div>
-           <h1>{product[0]?.item}</h1> 
+    return (
+      <div className="product-page">
+        {/* Product Image Section */}
+       
+
+        {/* Product Info Section */}
+        <div className="product-details">
+          <h1 className="product-title">{product[0]?.item}</h1>
+          <p className="product-type">Category: {product[0]?.type}</p>
+          <p className="product-price">Price: ${product[0]?.price.toFixed(2)}</p>
+
+          {/* Call-to-Action Buttons */}
+          <div className="product-actions">
+            <button className="add-to-cart">Add to Cart</button>
+          </div>
         </div>
-    )
+      </div>
+    );
 }
 
 export default ProductDisplay
