@@ -32,7 +32,7 @@ const App = () => {
     <Router>
       <Navbar data = {data}/>
       <Routes>
-        <Route path=":id" element ={<ProductDisplay/>} />
+        <Route path=":id" element ={<ProductDisplay data = {data}/>} />
         <Route path="/" element={<Home data = {data} filterProducts={filterProducts} setFilterProducts = {setFilterProducts} />} />
         <Route path="/about" element={<About />} />
       </Routes>

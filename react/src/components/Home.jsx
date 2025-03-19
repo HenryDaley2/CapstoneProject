@@ -25,6 +25,7 @@ const Home = (props) => {
   }
 
   return (
+    <>
     <div className="home-container">
       <h1>Product List</h1>
       {/* Right Section - Search Bar */}
@@ -42,6 +43,7 @@ const Home = (props) => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
