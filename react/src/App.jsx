@@ -9,6 +9,7 @@ import ProductDisplay from "./components/ProductDisplay";
 
 const App = () => {
     const [data, setData] = useState([]);
+    const [filterProducts, setFilterProducts] = useState([]);
     useEffect(() => {
       const fetchData = async () => {
         try {
@@ -18,6 +19,7 @@ const App = () => {
           }
           const json_response = await response.json();
           setData(json_response); // assign JSON response to the data variable.
+          setFilterProducts(json_response);
         } catch (error) {
           console.error("Error fetching products:", error);
         }
@@ -28,10 +30,10 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar />
+      <Navbar data = {data}/>
       <Routes>
         <Route path=":id" element ={<ProductDisplay/>} />
-        <Route path="/" element={<Home data={Products} />} />
+        <Route path="/" element={<Home data = {data} filterProducts={filterProducts} setFilterProducts = {setFilterProducts} />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>

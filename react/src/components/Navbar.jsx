@@ -50,12 +50,6 @@ const Navbar = () => {
           )}
         </div>
       </div>
-
-      {/* Right Section - Search Bar */}
-      <div className="navbar-right">
-        <input type="text" placeholder="Search..." className="search-bar" />
-        <button className="search-button">🔍</button>
-      </div>
     </nav>
   );
 };
