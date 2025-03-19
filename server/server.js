@@ -35,7 +35,7 @@ app.get("/products/:id", async (req, res) => {
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
-    const products = await collection.find({ id: id }).toArray();
+    const products = await collection.find({ id: Number(id) }).toArray();
     res.json(products);
   } catch (err) {
     console.error("Error:", err);
@@ -43,4 +43,8 @@ app.get("/products/:id", async (req, res) => {
       .status(500)
       .send(`Error fetching product with id ${id}`);
   }
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
