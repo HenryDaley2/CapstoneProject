@@ -1,10 +1,17 @@
-const home = () => {
-    return (
-        <div style={{ textAlign: "center", marginTop: "50px"}}>
-            <h1> Welcome to PURE PICKS</h1>
-            <p> Our Grocery store displays products from around the world!</p>
-        </div>
-    );
+import React from "react";
+import Product from "./Product";
+
+const home = (props) => {
+  return (
+    <div className="home-container">
+      <h1>Product List</h1>
+      <div className="product-list">
+        {props.data.map((Item) => (
+          <Product key={Item.id} data={Item} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default home;
