@@ -1,0 +1,1 @@
+mongoimport --uri mongodb://localhost:27017/purePicks --collection products --file products.json --jsonArray --drop
