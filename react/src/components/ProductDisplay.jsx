@@ -7,6 +7,7 @@ const ProductDisplay = (props) => {
   const [recProductsIds, setRecProductsIds] = useState([]);
   const [recProducts, setRecProducts] = useState([]);
   const { id } = useParams();
+
   useEffect(() => {
     async function getProduct() {
       console.log("id is:", id);
@@ -59,6 +60,39 @@ const ProductDisplay = (props) => {
     getRecProducts();
   }, [recProductsIds]);
 
+  const getUserFromLocalStorage = () => {
+    const storedUser = localStorage.getItem("user")
+        return storedUser ? storedUser : null;
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    let user = getUserFromLocalStorage();
+    try {
+      const payload = await fetch("http://localhost:3000/additem", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user: user,
+          id: product[0].id,
+          item: product[0].item,
+          type: product[0].type,
+          price: product[0].price,
+          quantity: 1
+        }),
+      });
+
+      const response = await payload.json();
+      if (payload.ok) {
+        console.log("Sucessfully updated cart")
+      } else {
+        console.log("Couldn't update cart");
+      }
+    } catch (error) {
+      console.error("Error: ", error);
+    }
+  }
+
   if (product.length == 0) {
     return <h1>Loading...</h1>;
   }
@@ -75,7 +109,7 @@ const ProductDisplay = (props) => {
 
         {/* Call-to-Action Buttons */}
         <div className="product-actions">
-          <button className="add-to-cart">Add to Cart</button>
+          <button className="add-to-cart" onClick={handleSubmit}>Add to Cart</button>
         </div>
       </div>
       <div className="product-list">

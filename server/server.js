@@ -44,10 +44,6 @@ app.get("/products/:id", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
-
 app.post("/register", async (req, res) => {
   try {
     const { username, email, password } = req.body;
@@ -112,3 +108,50 @@ app.post("/login", async (req, res) => {
   }
 });
 
+app.post("/additem", async (req, res) => {
+  try {
+    const { user, id, item, type, price, quantity } = req.body;
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const col = db.collection("carts");
+
+    const filter = {
+        user: user,
+        "cart.id": id
+    };
+
+    const payload = {
+      $setOnInsert: {
+        user: user,
+        "cart.id": id,
+        "cart.item": item,
+        "cart.type": type,
+        "cart.price": price,
+      },
+      $inc: { "cart.quantity": quantity },
+    };
+
+    const options = {upsert: true};
+
+    const result = await col.updateOne(filter, payload, options)
+
+    if (result.upsertedCount > 0){
+        res.status(200).json({ message: "Added new user to carts. Successfully added new item to cart." });
+    }
+    else if (result.modifiedCount > 0){
+        res.status(200).json({message: "Updated item count"});
+    }
+    else {
+        res.status(200).json({message: "No changes made."})
+    };
+
+  } catch (error) {
+    console.error("Error adding item to cart:", error);
+    res.status(500).json({ message: "Error adding item to cart" });
+  }
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
