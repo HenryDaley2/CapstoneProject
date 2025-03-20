@@ -6,7 +6,6 @@ const DisplayCartItems = (props) => {
     return (
       <div className="cart-items">
         {" "}
-        {/* To be styled... */}
         <h3>
           <a href={`${import.meta.env.VITE_STORE_URL}/${props.data.id}`}>
             {props.data.item}

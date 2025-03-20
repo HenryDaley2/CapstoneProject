@@ -3,17 +3,17 @@ import Product from "./Product";
 
 const Home = (props) => {
   const [searchString, setSearchString] = useState("");
-  const [selectedType, setSelectedType] = useState("All"); // ✅ Track selected filter type
+  const [selectedType, setSelectedType] = useState("All"); // Track selected filter type
 
   useEffect(() => {
     console.log(
       "Available product types:",
       props.data.map((p) => `"${p.type}"`)
-    ); // ✅ Logs all types
+    ); // Logs all types
 
-    const re = new RegExp(searchString, "i");
+    const re = new RegExp(searchString, "i"); // Filter by searchString if using search bar
 
-    // ✅ Normalize type formatting to ensure proper matching
+    // Normalize type formatting to ensure proper matching
     const normalizeType = (type) => type.toLowerCase().trim();
 
     let matchingProducts = props.data.filter(
@@ -26,14 +26,14 @@ const Home = (props) => {
     console.log(`Filtering by: "${selectedType}"`);
     console.log("Matching products:", matchingProducts);
 
-    props.setFilterProducts(matchingProducts);
+    props.setFilterProducts(matchingProducts); // Set matching products
   }, [searchString, selectedType, props.data]);
 
   const handleChange = (e) => {
     setSearchString(e.target.value);
   };
 
-  // ✅ Ensure type is correctly formatted
+  // Ensure type is correctly formatted
   const filterByType = (type) => {
     console.log("Filtering by type:", type);
     setSelectedType(type);
@@ -47,7 +47,7 @@ const Home = (props) => {
     <div className="home-container">
       <h1>Product List</h1>
 
-      {/* ✅ Filter Buttons */}
+      {/* Filter Buttons */}
       <div className="filter-buttons">
         <button onClick={() => filterByType("All")}>All</button>
         <button onClick={() => filterByType("fruit")}>Fruits</button>
@@ -58,7 +58,7 @@ const Home = (props) => {
         <button onClick={() => filterByType("bread")}>Bread</button>
       </div>
 
-      {/* ✅ Search Bar */}
+      {/* Search Bar */}
       <input
         type="text"
         placeholder="Search..."
@@ -67,7 +67,7 @@ const Home = (props) => {
       />
       <i className="search-button">🔍</i>
 
-      {/* ✅ Display Products */}
+      {/* Display Products */}
       <div className="product-list">
         {props.filterProducts.map((Item) => (
           <Product key={Item.id} data={Item} />

@@ -8,7 +8,7 @@ const ProductDisplay = (props) => {
   const [recProductsIds, setRecProductsIds] = useState([]);
   const [recProducts, setRecProducts] = useState([]);
   const [quantity, setQuantity] = useState(1);
-  const [imageUrl, setImageUrl] = useState(""); // ✅ State for product image
+  const [imageUrl, setImageUrl] = useState(""); // State for product image
   const { id } = useParams();
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const ProductDisplay = (props) => {
   }, []);
 
   useEffect(() => {
-    async function getRecProductsIds() {
+    async function getRecProductsIds() { // Fetch IDs of products from NearestNeighbors model by communicating with Flask app with a POST request
       let url = `http://localhost:5001/model`;
       try {
         const response = await fetch(url, {
@@ -36,7 +36,7 @@ const ProductDisplay = (props) => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ id: id }),
+          body: JSON.stringify({ id: id }), // Only need the ID of the currently viewed item
         }).then((res) => res.json());
         setRecProductsIds(response);
       } catch (error) {
@@ -47,7 +47,7 @@ const ProductDisplay = (props) => {
   }, []);
 
   useEffect(() => {
-    async function getRecProducts() {
+    async function getRecProducts() { // Get products from fetched product IDs
       if (recProductsIds.length > 0) {
         let matchedProducts = recProductsIds
           .map((rec) => props.data.find((product) => product.id == rec.id))
@@ -58,7 +58,7 @@ const ProductDisplay = (props) => {
     getRecProducts();
   }, [recProductsIds]);
 
-  // ✅ Fetch Unsplash Image Based on Product Name
+  // Fetch Unsplash Image Based on Product Name
   useEffect(() => {
     if (product.length > 0) {
       fetchUnsplashImage(product[0].item);
@@ -71,9 +71,9 @@ const ProductDisplay = (props) => {
         "https://api.unsplash.com/search/photos",
         {
           params: {
-            query: query, // ✅ Search based on product name
-            client_id: "N8ayKG7mVrZ3wXL6DLpIzRLQxeDOT3geGKEh6agOd9o", // ✅ Replace with your actual Unsplash API key
-            per_page: 1, // ✅ Get only 1 image
+            query: query, // Search based on product name
+            client_id: "N8ayKG7mVrZ3wXL6DLpIzRLQxeDOT3geGKEh6agOd9o", // Replace with your actual Unsplash API key
+            per_page: 1, // Get first image
           },
         }
       );
@@ -88,12 +88,12 @@ const ProductDisplay = (props) => {
     }
   };
 
-  const getUserFromLocalStorage = () => {
+  const getUserFromLocalStorage = () => { // Retrieve user from localStorage
     const storedUser = localStorage.getItem("user");
     return storedUser ? storedUser : null;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => { // Function for adding item to cart and adding/updating existing DB entry on button click
     e.preventDefault();
     let user = getUserFromLocalStorage();
     try {
@@ -143,7 +143,7 @@ const ProductDisplay = (props) => {
         <p className="product-type">Category: {product[0]?.type}</p>
         <p className="product-price">Price: ${product[0]?.price.toFixed(2)}</p>
 
-        {/* ✅ Display Product Image */}
+        {/* Display Product Image */}
         {imageUrl && (
           <img
             src={imageUrl}

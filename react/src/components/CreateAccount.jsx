@@ -20,7 +20,7 @@ const CreateAccount = () => {
   // Validate form
   const validateForm = () => {
     let newErrors = {};
-    if (!formData.username.trim()) newErrors.username = "Username is required.";
+    if (!formData.username.trim()) newErrors.username = "Username is required."; // Check for validity of inputs
     if (!formData.email.includes("@")) newErrors.email = "Enter a valid email.";
     if (formData.password.length < 6)
       newErrors.password = "Password must be at least 6 characters.";
@@ -35,7 +35,7 @@ const CreateAccount = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await fetch("http://localhost:3000/register", {
+        const response = await fetch("http://localhost:3000/register", { // Submit POST request to server to create a new user in users collection
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

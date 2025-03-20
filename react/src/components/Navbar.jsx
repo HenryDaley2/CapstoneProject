@@ -5,7 +5,7 @@ const Navbar = (props) => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
-  // ✅ Retrieve user from localStorage when the component mounts
+  // Retrieve user from localStorage when the component mounts
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
@@ -16,9 +16,9 @@ const Navbar = (props) => {
   const handleLogout = () => {
     localStorage.removeItem("user");
     setUser(null);
-    navigate("/"); // ✅ Redirects to home page
+    navigate("/"); // Redirects to home page
 
-    // ✅ Force a reload to refresh the home page
+    // Force a reload to refresh the home page
     window.location.reload();
   };
 

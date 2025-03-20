@@ -11,7 +11,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({ ...formData, [e.target.name]: e.target.value }); // Check for changes in input fields
   };
 
   const handleSubmit = async (e) => {
@@ -19,7 +19,7 @@ const Login = () => {
     setErrors({});
 
     try {
-      const response = await fetch("http://localhost:3000/login", {
+      const response = await fetch("http://localhost:3000/login", { // Submit POST request to server to check if user is in users collection
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -31,10 +31,10 @@ const Login = () => {
       const data = await response.json();
 
       if (response.ok) {
-        localStorage.setItem("user", JSON.stringify(data.user)); // ✅ Save user data
-        navigate("/"); // ✅ Redirect to home page
+        localStorage.setItem("user", JSON.stringify(data.user)); // Save user data to localStorage for use in loading/saving carts
+        navigate("/"); // Redirect to home page
 
-        // ✅ Force a reload to refresh the home page
+        // Force a reload to refresh the home page
         window.location.reload();
       } else {
         setErrors({ general: data.message || "Invalid credentials" });

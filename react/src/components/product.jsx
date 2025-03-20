@@ -3,7 +3,7 @@ import React from "react";
 const Product = (props) => {
   return (
     <a
-      href={`${import.meta.env.VITE_STORE_URL}/${props.data.id}`}
+      href={`${import.meta.env.VITE_STORE_URL}/${props.data.id}`} // Make each card clickable
       className="product-link"
     >
       <div className="product-card">

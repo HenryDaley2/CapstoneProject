@@ -1,26 +1,26 @@
 import DisplayCartItems from "./DisplayCartItems";
 
 const Cart = (props) => {
-  if (props.cartItems.length === 0) {
+  if (props.cartItems.length === 0) { // Check to see if carItems are properly loaded. If not, display a loading placeholder for user
     return <h1>Loading...</h1>;
   }
 
   let total = props.cartItems.reduce(
-    (sum, item) => sum + item.price * item.quantity,
+    (sum, item) => sum + item.price * item.quantity, // Calculate total price of items in cart
     0
   );
 
-  // ✅ Helper function to update backend & state
+  // Helper function to update backend & state
   const updateCart = async (url, method, body, updateState) => {
     try {
-      const response = await fetch(url, {
+      const response = await fetch(url, { // Fetch cart data 
         method,
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
 
       if (response.ok) {
-        updateState(); // ✅ Call the function to update state if successful
+        updateState(); // Call the function to update state if successful
       } else {
         console.error("Failed to update cart");
       }
@@ -29,11 +29,11 @@ const Cart = (props) => {
     }
   };
 
-  // ✅ Update quantity function
+  // Update quantity function
   const updateQuantity = (id, newQuantity) => {
     if (newQuantity < 1) return;
 
-    updateCart(
+    updateCart( // Submit POST request to server to modify user item quantity in DB
       "http://localhost:3000/update-cart",
       "POST",
       { user: localStorage.getItem("user"), id, quantity: newQuantity },
@@ -46,8 +46,8 @@ const Cart = (props) => {
     );
   };
 
-  // ✅ Remove item function
-  const removeItem = (id) => {
+  // Remove item function
+  const removeItem = (id) => { // Submit DELETE request to server to remove the clicked item
     updateCart(
       "http://localhost:3000/remove-cart-item",
       "DELETE",
@@ -65,9 +65,9 @@ const Cart = (props) => {
         <div key={item.id} className="cart-item-box">
           <DisplayCartItems data={item} />
 
-          {/* ✅ Quantity Controls */}
+          {/* Quantity Controls */}
           <div className="quantity-controls">
-            <button onClick={() => updateQuantity(item.id, item.quantity - 1)}>
+            <button onClick={() => updateQuantity(item.id, item.quantity - 1)}> 
               -
             </button>
             <input
@@ -83,17 +83,17 @@ const Cart = (props) => {
             </button>
           </div>
 
-          {/* ✅ Remove Button */}
+          {/* Remove Button */}
           <button className="remove-btn" onClick={() => removeItem(item.id)}>
             Remove
           </button>
         </div>
       ))}
 
-      {/* ✅ Checkout Button */}
+      {/* Checkout Button NO FUNCTIONALITY */}
       <button className="checkout-btn">Checkout</button>
 
-      {/* ✅ Display Grand Total */}
+      {/* Display Grand Total */}
       <footer>Grand Total: ${total.toFixed(2)}</footer>
     </div>
   );
