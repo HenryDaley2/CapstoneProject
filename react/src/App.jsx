@@ -8,6 +8,7 @@ import React, { useState, useEffect } from "react";
 import ProductDisplay from "./components/ProductDisplay";
 import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
+import Cart from "./components/Cart"
 
 const App = () => {
     const [data, setData] = useState([]);
@@ -50,6 +51,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </Router>
   );
