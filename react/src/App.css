@@ -510,15 +510,11 @@ h1 {
 
 /* ✅ Suggested Products Section */
 .product-list {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 250px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ✅ Responsive grid */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
 }
 
 /* ✅ Style individual recommended product boxes */
@@ -534,3 +530,26 @@ h1 {
   transform: scale(1.05);
 }
 
+.suggested-products {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+}
+
+/* ✅ Ensure each suggested product has its own box */
+.suggested-product-card {
+  padding: 10px;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.suggested-product-card:hover {
+  transform: scale(1.05);
+}

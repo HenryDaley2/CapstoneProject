@@ -186,9 +186,11 @@ const ProductDisplay = (props) => {
         </div>
       </div>
 
-      <div className="product-list">
+      <div className="suggested-products">
         {recProducts.map((Item) => (
-          <Product key={Item.id} data={Item} />
+          <div key={Item.id} className="suggested-product-card">
+            <Product key={Item.id} data={Item} />
+          </div>
         ))}
       </div>
     </div>
