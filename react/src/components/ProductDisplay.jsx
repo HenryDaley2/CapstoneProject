@@ -6,6 +6,7 @@ const ProductDisplay = (props) => {
   const [product, setProduct] = useState([]);
   const [recProductsIds, setRecProductsIds] = useState([]);
   const [recProducts, setRecProducts] = useState([]);
+  const [quantity, setQuantity] = useState(1); // ✅ Track quantity
   const { id } = useParams();
 
   useEffect(() => {
@@ -33,15 +34,11 @@ const ProductDisplay = (props) => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({
-            id: id,
-          }),
+          body: JSON.stringify({ id: id }),
         }).then((res) => res.json());
-        console.log(response);
         setRecProductsIds(response);
-        console.log("ids", recProductsIds);
       } catch (error) {
-        console.error("Error fetching product", error.message);
+        console.error("Error fetching recommended products", error.message);
       }
     }
     getRecProductsIds();
@@ -54,16 +51,15 @@ const ProductDisplay = (props) => {
           .map((rec) => props.data.find((product) => product.id == rec.id))
           .filter((product) => product);
         setRecProducts(matchedProducts);
-        console.log("matches", recProducts)
       }
     }
     getRecProducts();
   }, [recProductsIds]);
 
   const getUserFromLocalStorage = () => {
-    const storedUser = localStorage.getItem("user")
-        return storedUser ? storedUser : null;
-  }
+    const storedUser = localStorage.getItem("user");
+    return storedUser ? storedUser : null;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -78,40 +74,66 @@ const ProductDisplay = (props) => {
           item: product[0].item,
           type: product[0].type,
           price: product[0].price,
-          quantity: 1
+          quantity: quantity, // ✅ Updated to use the selected quantity
         }),
       });
 
       const response = await payload.json();
       if (payload.ok) {
-        console.log("Sucessfully updated cart")
+        console.log("Successfully updated cart");
       } else {
         console.log("Couldn't update cart");
       }
     } catch (error) {
       console.error("Error: ", error);
     }
-  }
+  };
 
-  if (product.length == 0) {
+  if (product.length === 0) {
     return <h1>Loading...</h1>;
   }
 
   return (
     <div className="product-page">
-      {/* Product Image Section */}
-
-      {/* Product Info Section */}
       <div className="product-details">
         <h1 className="product-title">{product[0]?.item}</h1>
         <p className="product-type">Category: {product[0]?.type}</p>
         <p className="product-price">Price: ${product[0]?.price.toFixed(2)}</p>
 
+        {/* Quantity Selector */}
+        <div className="quantity-selector">
+          <button
+            className="quantity-button"
+            onClick={() => setQuantity((prev) => Math.max(prev - 1, 1))}
+          >
+            -
+          </button>
+          <input
+            type="number"
+            className="quantity-input"
+            value={quantity}
+            onChange={(e) => {
+              let val = parseInt(e.target.value, 10);
+              setQuantity(val >= 1 ? val : 1);
+            }}
+            min="1"
+          />
+          <button
+            className="quantity-button"
+            onClick={() => setQuantity((prev) => prev + 1)}
+          >
+            +
+          </button>
+        </div>
+
         {/* Call-to-Action Buttons */}
         <div className="product-actions">
-          <button className="add-to-cart" onClick={handleSubmit}>Add to Cart</button>
+          <button className="add-to-cart" onClick={handleSubmit}>
+            Add to Cart
+          </button>
         </div>
       </div>
+
       <div className="product-list">
         {recProducts.map((Item) => (
           <Product key={Item.id} data={Item} />
