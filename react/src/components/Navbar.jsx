@@ -1,34 +1,17 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [user, setUser] = useState(null);
-  const [cartCount, setCartCount] = useState(0);
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   const storedUser = localStorage.getItem("user");
-  //   if (storedUser) {
-  //     setUser(JSON.parse(storedUser));
-  //   }
-
-  //   // Fetch Cart Count
-  //   fetchCartCount();
-  // }, []);
-
-  // const fetchCartCount = async () => {
-  //   const user = localStorage.getItem("user");
-  //   const parsedUser = JSON.parse(user);
-  //   if (!user) return;
-
-  //   try {
-  //     const response = await fetch(`http://localhost:3000/cart/${parsedUser.username}`);
-  //     const cartItems = await response.json();
-  //     setCartCount(cartItems[0].cart);
-  //   } catch (error) {
-  //     console.error("Error fetching cart count:", error);
-  //   }
-  // };
+  // ✅ Retrieve user from localStorage when the component mounts
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser)); // ✅ Parse and store user
+    }
+  }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("user");
@@ -88,7 +71,8 @@ const Navbar = () => {
 
         {/* Cart Button */}
         <Link to="/cart" className="cart-btn">
-          🛒 Cart <span className="cart-count">{cartCount}</span>
+          🛒 Cart{" "}
+          <span className="cart-count">{props.numberOfItemsInCart}</span>
         </Link>
       </div>
     </nav>

@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <Router>
-      <Navbar data={data} />
+      <Navbar data={data}  />
       <Routes>
         <Route path=":id" element ={<ProductDisplay data = {data}/>} />
         <Route path="/" element={<Home data = {data} filterProducts={filterProducts} setFilterProducts = {setFilterProducts} />} />
