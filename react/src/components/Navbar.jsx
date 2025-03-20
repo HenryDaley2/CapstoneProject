@@ -9,14 +9,17 @@ const Navbar = (props) => {
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
-      setUser(JSON.parse(storedUser)); // ✅ Parse and store user
+      setUser(JSON.parse(storedUser));
     }
   }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("user");
     setUser(null);
-    navigate("/");
+    navigate("/"); // ✅ Redirects to home page
+
+    // ✅ Force a reload to refresh the home page
+    window.location.reload();
   };
 
   return (
@@ -33,20 +36,6 @@ const Navbar = (props) => {
         <Link to="/about" className="nav-link">
           About
         </Link>
-        <div className="dropdown-container">
-          <button className="dropdown-button">Menu ▼</button>
-          <div className="dropdown-menu">
-            <Link to="/category/fruits" className="dropdown-item">
-              Fruits
-            </Link>
-            <Link to="/category/vegetables" className="dropdown-item">
-              Vegetables
-            </Link>
-            <Link to="/category/dairy" className="dropdown-item">
-              Dairy
-            </Link>
-          </div>
-        </div>
       </div>
 
       {/* Right Section - Login, Account, and Cart */}
