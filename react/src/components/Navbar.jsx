@@ -6,28 +6,29 @@ const Navbar = () => {
   const [cartCount, setCartCount] = useState(0);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const storedUser = localStorage.getItem("user");
-    if (storedUser) {
-      setUser(JSON.parse(storedUser));
-    }
+  // useEffect(() => {
+  //   const storedUser = localStorage.getItem("user");
+  //   if (storedUser) {
+  //     setUser(JSON.parse(storedUser));
+  //   }
 
-    // Fetch Cart Count
-    fetchCartCount();
-  }, []);
+  //   // Fetch Cart Count
+  //   fetchCartCount();
+  // }, []);
 
-  const fetchCartCount = async () => {
-    const user = localStorage.getItem("user");
-    if (!user) return;
+  // const fetchCartCount = async () => {
+  //   const user = localStorage.getItem("user");
+  //   const parsedUser = JSON.parse(user);
+  //   if (!user) return;
 
-    try {
-      const response = await fetch(`http://localhost:3000/cart?user=${user}`);
-      const cartItems = await response.json();
-      setCartCount(cartItems.length);
-    } catch (error) {
-      console.error("Error fetching cart count:", error);
-    }
-  };
+  //   try {
+  //     const response = await fetch(`http://localhost:3000/cart/${parsedUser.username}`);
+  //     const cartItems = await response.json();
+  //     setCartCount(cartItems[0].cart);
+  //   } catch (error) {
+  //     console.error("Error fetching cart count:", error);
+  //   }
+  // };
 
   const handleLogout = () => {
     localStorage.removeItem("user");

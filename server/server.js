@@ -116,35 +116,62 @@ app.post("/additem", async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection("carts");
 
+    const parsedUser = JSON.parse(user);
+
     const filter = {
-        user: JSON.parse(user),
-        "cart.id": id
+        "user.email": parsedUser.email,
+        "user.username":parsedUser.username
     };
 
-    const payload = {
-      $setOnInsert: {
-        user: JSON.parse(user),
-        "cart.id": id,
-        "cart.item": item,
-        "cart.type": type,
-        "cart.price": price,
-      },
-      $inc: { "cart.quantity": quantity },
-    };
+    const existingCart = await collection.findOne(filter);
 
-    const options = {upsert: true};
-
-    const result = await collection.updateOne(filter, payload, options)
-
-    if (result.upsertedCount > 0){
-        res.status(200).json({ message: "Added new user to carts. Successfully added new item to cart." });
+    if (existingCart) {
+        const existingItem = existingCart.cart.find((cartItem) => cartItem.id == id);
+        if (existingItem){
+            await collection.updateOne(filter, {$inc: {"cart.$[elem].quantity": quantity}},
+                {arrayFilters: [{"elem.id": id}]}
+            );
+            return res.status(200).json({message: "Updated item quantity in cart"})
+        }
+        else{
+            await collection.updateOne(filter, {$push: {cart: {id, item, type, price, quantity}}});
+            return res.status(200).json({message:"Added new item to cart"})
+        }
     }
-    else if (result.modifiedCount > 0){
-        res.status(200).json({message: "Updated item count"});
-    }
-    else {
-        res.status(200).json({message: "No changes made."})
-    };
+    else{
+        await collection.insertOne({
+            user: parsedUser,
+            cart: [{id, item, type, price, quantity}]
+        });
+        return res.status(200).json({message: "Created new cart for user and added item"})
+    }   
+
+    // const payload = {
+    //   $setOnInsert: {
+    //     user: JSON.parse(user),
+    //     "cart.id": id,
+    //     "cart.item": item,
+    //     "cart.type": type,
+    //     "cart.price": price,
+    //   },
+    //   $inc: { "cart.quantity": quantity },
+    // };
+
+    // const options = {
+    //     arrayFilters: [{"elem.id": id}],
+    //     upsert: true};
+
+    // const result = await collection.updateOne(filter, payload, options)
+
+    // if (result.upsertedCount > 0){
+    //     res.status(200).json({ message: "Added new user to carts. Successfully added new item to cart." });
+    // }
+    // else if (result.modifiedCount > 0){
+    //     res.status(200).json({message: "Updated item count"});
+    // }
+    // else {
+    //     res.status(200).json({message: "No changes made."})
+    // };
 
   } catch (error) {
     console.error("Error adding item to cart:", error);
@@ -159,6 +186,7 @@ app.get("/cart/:user", async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection("carts");
     const cart = await collection.find({ "user.username": user.trim() }).toArray();
+    console.log(cart)
     res.json(cart);
     
   } catch (error) {

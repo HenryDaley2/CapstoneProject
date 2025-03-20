@@ -14,7 +14,7 @@ const Cart = (props) => {
           console.log("url: ", url)
           const fetchCart = await fetch(url).then((res) => res.json());
           console.log(fetchCart);
-          setCartItems(fetchCart);
+          setCartItems(fetchCart[0].cart);
         } catch (error) {
           console.error("Error fetching product", error.message);
         }
@@ -29,8 +29,8 @@ const Cart = (props) => {
     return (
       <div className="product-page">
 
-          {cartItems.map((Item) => (
-            <Product key={Item.cart.id} data={Item.cart} />
+          {cartItems?.map((Item) => (
+            <Product key={Item.id} data={Item} />
           ))}
         </div>
     )};
