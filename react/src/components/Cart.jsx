@@ -1,69 +1,62 @@
 import DisplayCartItems from "./DisplayCartItems";
-import { useState } from "react";
 
 const Cart = (props) => {
   if (props.cartItems.length === 0) {
     return <h1>Loading...</h1>;
   }
 
-  let total = 0;
-  props.cartItems?.forEach((item) => {
-    total += item.price * item.quantity;
-  });
+  let total = props.cartItems.reduce(
+    (sum, item) => sum + item.price * item.quantity,
+    0
+  );
 
-  // ✅ Update quantity in both state & database
-  const updateQuantity = async (id, newQuantity) => {
-    if (newQuantity < 1) return; // Prevents negative quantity
-
+  // ✅ Helper function to update backend & state
+  const updateCart = async (url, method, body, updateState) => {
     try {
-      const response = await fetch("http://localhost:3000/update-cart", {
-        method: "POST",
+      const response = await fetch(url, {
+        method,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user: localStorage.getItem("user"),
-          id: id,
-          quantity: newQuantity,
-        }),
+        body: JSON.stringify(body),
       });
 
       if (response.ok) {
-        // ✅ Update the cart state without reloading
-        props.setCartItems((prevCart) =>
-          prevCart.map((item) =>
-            item.id === id ? { ...item, quantity: newQuantity } : item
-          )
-        );
+        updateState(); // ✅ Call the function to update state if successful
       } else {
-        console.error("Failed to update quantity");
+        console.error("Failed to update cart");
       }
     } catch (error) {
       console.error("Error updating cart:", error);
     }
   };
 
-  // ✅ Remove item from both state & database
-  const removeItem = async (id) => {
-    try {
-      const response = await fetch("http://localhost:3000/remove-cart-item", {
-        method: "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user: localStorage.getItem("user"),
-          id: id,
-        }),
-      });
+  // ✅ Update quantity function
+  const updateQuantity = (id, newQuantity) => {
+    if (newQuantity < 1) return;
 
-      if (response.ok) {
-        // ✅ Remove the item from local state instantly
+    updateCart(
+      "http://localhost:3000/update-cart",
+      "POST",
+      { user: localStorage.getItem("user"), id, quantity: newQuantity },
+      () =>
+        props.setCartItems((prevCart) =>
+          prevCart.map((item) =>
+            item.id === id ? { ...item, quantity: newQuantity } : item
+          )
+        )
+    );
+  };
+
+  // ✅ Remove item function
+  const removeItem = (id) => {
+    updateCart(
+      "http://localhost:3000/remove-cart-item",
+      "DELETE",
+      { user: localStorage.getItem("user"), id },
+      () =>
         props.setCartItems((prevCart) =>
           prevCart.filter((item) => item.id !== id)
-        );
-      } else {
-        console.error("Failed to remove item");
-      }
-    } catch (error) {
-      console.error("Error removing item:", error);
-    }
+        )
+    );
   };
 
   return (
