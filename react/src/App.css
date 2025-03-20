@@ -246,6 +246,30 @@ body {
   background: #0056b3;
 }
 
+/* ========== FILTER BUTTONS ========== */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.filter-buttons button:hover {
+  background: #0056b3;
+}
+
+
 /* ========== PRODUCT LIST & STYLING ========== */
 
 /*  Remove Default Link Styling */
