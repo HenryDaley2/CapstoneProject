@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Product from "./Product";
+import DisplayCartItems from "./DisplayCartItems";
 const Cart = (props) => {
     const [cartItems, setCartItems] = useState([]);
 
@@ -26,12 +26,18 @@ const Cart = (props) => {
         return <h1>Loading...</h1>
     }
 
+    let total = 0;
+    cartItems?.map((item) => (
+        total += item.price * item.quantity
+    ))
+
     return (
       <div className="product-page">
-
           {cartItems?.map((Item) => (
-            <Product key={Item.id} data={Item} />
+            <DisplayCartItems key={Item.id} data={Item} />
           ))}
+        <button>Checkout</button> {/* Add delete cart functionality and log order */}
+        <footer>Grand Total: ${total.toFixed(2)}</footer>
         </div>
     )};
 
