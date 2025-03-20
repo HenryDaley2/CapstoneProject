@@ -248,14 +248,14 @@ body {
 
 /* ========== PRODUCT LIST & STYLING ========== */
 
-/* ✅ Remove Default Link Styling */
+/*  Remove Default Link Styling */
 .product-link {
   text-decoration: none;
   color: inherit;
-  display: block; /* ✅ Ensures the link covers the whole box */
+  display: block; /*  Ensures the link covers the whole box */
 }
 
-/* ✅ Product Card Styling */
+/*  Product Card Styling */
 .product-card {
   background: white;
   border: 1px solid #ddd;
@@ -264,7 +264,7 @@ body {
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  cursor: pointer; /* ✅ Shows a pointer cursor to indicate clickability */
+  cursor: pointer; /*  Shows a pointer cursor to indicate clickability */
 }
 
 .product-card:hover {
@@ -272,11 +272,11 @@ body {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Ensures the Product Title and Details Keep Consistent Styling */
+/* Ensures the Product Title and Details Keep Consistent Styling */
 .product-card h3 {
   font-size: 20px;
   margin-bottom: 5px;
-  color: #333; /* ✅ Ensures text isn't blue */
+  color: #333; /* Ensures text isn't blue */
 }
 
 .product-card p {
@@ -346,7 +346,7 @@ h1 {
 }
 /* ========== CART STYLING ========== */
 
-/* ✅ Style the Cart Container */
+/*  Style the Cart Container */
 .cart-container {
   max-width: 800px;
   margin: 40px auto;
@@ -357,7 +357,7 @@ h1 {
   text-align: center;
 }
 
-/* ✅ Style Each Cart Item Box */
+/* Style Each Cart Item Box */
 .cart-item-box {
   background: #ffffff;
   border: 1px solid #ddd;
@@ -370,7 +370,7 @@ h1 {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ Style Quantity Controls */
+/*  Style Quantity Controls */
 .quantity-controls {
   display: flex;
   align-items: center;
@@ -399,7 +399,7 @@ h1 {
   padding: 5px;
 }
 
-/* ✅ Remove Button */
+/*  Remove Button */
 .remove-btn {
   background: red;
   color: white;
@@ -414,7 +414,7 @@ h1 {
   background: darkred;
 }
 
-/* ✅ Checkout Button */
+/*  Checkout Button */
 .checkout-btn {
   margin-top: 20px;
   padding: 12px;
@@ -440,7 +440,7 @@ h1 {
   gap: 20px;
 }
 
-/* ✅ Style the product details section */
+/*  Style the product details section */
 .product-details {
   flex: 2;
   background: white;
@@ -450,7 +450,7 @@ h1 {
   text-align: center;
 }
 
-/* ✅ Reduce Image Size */
+/*  Reduce Image Size */
 .product-image {
   width: 100%;
   max-width: 300px; /* Adjust the size */
@@ -462,7 +462,7 @@ h1 {
   margin-right: auto;
 }
 
-/* ✅ Style Quantity Selector */
+/*  Style Quantity Selector */
 .quantity-selector {
   display: flex;
   align-items: center;
@@ -493,7 +493,7 @@ h1 {
   padding: 5px;
 }
 
-/* ✅ Style the add to cart button */
+/*  Style the add to cart button */
 .add-to-cart {
   padding: 12px 20px;
   font-size: 18px;
@@ -508,16 +508,16 @@ h1 {
   background-color: #218838;
 }
 
-/* ✅ Suggested Products Section */
+/* Suggested Products Section */
 .product-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* ✅ Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*  Responsive grid */
   gap: 20px;
   padding: 20px;
   justify-content: center;
 }
 
-/* ✅ Style individual recommended product boxes */
+/*  Style individual recommended product boxes */
 .product-list .product-card {
   padding: 10px;
   text-align: center;
@@ -541,7 +541,7 @@ h1 {
   max-width: 250px;
 }
 
-/* ✅ Ensure each suggested product has its own box */
+/* Ensure each suggested product has its own box */
 .suggested-product-card {
   padding: 10px;
   text-align: center;
