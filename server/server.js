@@ -236,3 +236,60 @@ app.post("/update-cart", async (req, res) => {
     res.status(500).json({ message: "Error updating quantity" });
   }
 });
+
+app.post("/update-cart", async (req, res) => {
+  try {
+    const { user, id, quantity } = req.body;
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("carts");
+
+    const parsedUser = JSON.parse(user);
+
+    const filter = { "user.username": parsedUser.username, "cart.id": id };
+    const update = {
+      $set: { "cart.$.quantity": quantity }, // ✅ Updates the correct cart item quantity
+    };
+
+    const result = await collection.updateOne(filter, update);
+
+    if (result.modifiedCount > 0) {
+      res.status(200).json({ message: "Quantity updated successfully" });
+    } else {
+      res.status(400).json({ message: "Failed to update quantity" });
+    }
+  } catch (error) {
+    console.error("Error updating cart item quantity:", error);
+    res.status(500).json({ message: "Error updating quantity" });
+  }
+});
+
+app.delete("/remove-cart-item", async (req, res) => {
+  try {
+    const { user, id } = req.body;
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("carts");
+
+    const parsedUser = JSON.parse(user);
+
+    const filter = { "user.username": parsedUser.username };
+    const update = { $pull: { cart: { id: id } } }; // ✅ Removes the item from cart array
+
+    const result = await collection.updateOne(filter, update);
+
+    if (result.modifiedCount > 0) {
+      res.status(200).json({ message: "Item removed from cart" });
+    } else {
+      res.status(400).json({ message: "Failed to remove item" });
+    }
+  } catch (error) {
+    console.error("Error removing item from cart:", error);
+    res.status(500).json({ message: "Error removing item" });
+  }
+});
+
+
+

@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import DisplayCartItems from "./DisplayCartItems";
 import { useState } from "react";
 
@@ -12,21 +11,59 @@ const Cart = (props) => {
     total += item.price * item.quantity;
   });
 
-  // ✅ Update quantity of an item
-  const updateQuantity = (id, newQuantity) => {
+  // ✅ Update quantity in both state & database
+  const updateQuantity = async (id, newQuantity) => {
     if (newQuantity < 1) return; // Prevents negative quantity
 
-    const updatedCart = props.cartItems.map((item) =>
-      item.id === id ? { ...item, quantity: newQuantity } : item
-    );
+    try {
+      const response = await fetch("http://localhost:3000/update-cart", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user: localStorage.getItem("user"),
+          id: id,
+          quantity: newQuantity,
+        }),
+      });
 
-    props.setCartItems(updatedCart);
+      if (response.ok) {
+        // ✅ Update the cart state without reloading
+        props.setCartItems((prevCart) =>
+          prevCart.map((item) =>
+            item.id === id ? { ...item, quantity: newQuantity } : item
+          )
+        );
+      } else {
+        console.error("Failed to update quantity");
+      }
+    } catch (error) {
+      console.error("Error updating cart:", error);
+    }
   };
 
-  // ✅ Remove item from cart
-  const removeItem = (id) => {
-    const updatedCart = props.cartItems.filter((item) => item.id !== id);
-    props.setCartItems(updatedCart);
+  // ✅ Remove item from both state & database
+  const removeItem = async (id) => {
+    try {
+      const response = await fetch("http://localhost:3000/remove-cart-item", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user: localStorage.getItem("user"),
+          id: id,
+        }),
+      });
+
+      if (response.ok) {
+        // ✅ Remove the item from local state instantly
+        props.setCartItems((prevCart) =>
+          prevCart.filter((item) => item.id !== id)
+        );
+      } else {
+        console.error("Failed to remove item");
+      }
+    } catch (error) {
+      console.error("Error removing item:", error);
+    }
   };
 
   return (
