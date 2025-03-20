@@ -15,17 +15,18 @@ const App = () => {
   useEffect(() => {
     async function getCart() {
       // let url = `${import.meta.env.VITE_PRODUCTS_API_URL}/cart/${localStorage.getItem("user")}`;
-      try {
-        let user = JSON.parse(localStorage.getItem("user"));
-        console.log("user ", user);
-        let url = `http://localhost:3000/cart/${user.username}`;
-        console.log("url: ", url);
-        const fetchCart = await fetch(url).then((res) => res.json());
-        console.log(fetchCart);
-        setCartItems(fetchCart[0].cart);
-      } catch (error) {
-        console.error("Error fetching product", error.message);
-      }
+      let user = JSON.parse(localStorage.getItem("user"));
+        try {
+          let user = JSON.parse(localStorage.getItem("user"));
+          console.log("user ", user);
+          let url = `http://localhost:3000/cart/${user.username}`;
+          console.log("url: ", url);
+          const fetchCart = await fetch(url).then((res) => res.json());
+          console.log(fetchCart);
+          setCartItems(fetchCart[0].cart);
+        } catch (error) {
+          console.error("Error fetching product", error.message);
+        }
     }
     getCart();
   }, []);
@@ -77,7 +78,7 @@ const App = () => {
           }
         />
         <Route path="/about" element={<About />} />
-        <Route path="/createaccount" element={<CreateAccount />} />
+        <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
         <Route
           path="/cart"
