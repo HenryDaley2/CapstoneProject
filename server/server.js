@@ -96,12 +96,10 @@ app.post("/login", async (req, res) => {
     }
 
     // Return user data (excluding password)
-    res
-      .status(200)
-      .json({
-        message: "Login successful",
-        user: { email: user.email, username: user.username },
-      });
+    res.status(200).json({
+      message: "Login successful",
+      user: { email: user.email, username: user.username },
+    });
   } catch (error) {
     console.error("Error logging in:", error);
     res.status(500).json({ message: "Error logging in" });
@@ -119,32 +117,40 @@ app.post("/additem", async (req, res) => {
     const parsedUser = JSON.parse(user);
 
     const filter = {
-        "user.email": parsedUser.email,
-        "user.username":parsedUser.username
+      "user.email": parsedUser.email,
+      "user.username": parsedUser.username,
     };
 
     const existingCart = await collection.findOne(filter);
 
     if (existingCart) {
-        const existingItem = existingCart.cart.find((cartItem) => cartItem.id == id);
-        if (existingItem){
-            await collection.updateOne(filter, {$inc: {"cart.$[elem].quantity": quantity}},
-                {arrayFilters: [{"elem.id": id}]}
-            );
-            return res.status(200).json({message: "Updated item quantity in cart"})
-        }
-        else{
-            await collection.updateOne(filter, {$push: {cart: {id, item, type, price, quantity}}});
-            return res.status(200).json({message:"Added new item to cart"})
-        }
-    }
-    else{
-        await collection.insertOne({
-            user: parsedUser,
-            cart: [{id, item, type, price, quantity}]
+      const existingItem = existingCart.cart.find(
+        (cartItem) => cartItem.id == id
+      );
+      if (existingItem) {
+        await collection.updateOne(
+          filter,
+          { $inc: { "cart.$[elem].quantity": quantity } },
+          { arrayFilters: [{ "elem.id": id }] }
+        );
+        return res
+          .status(200)
+          .json({ message: "Updated item quantity in cart" });
+      } else {
+        await collection.updateOne(filter, {
+          $push: { cart: { id, item, type, price, quantity } },
         });
-        return res.status(200).json({message: "Created new cart for user and added item"})
-    }   
+        return res.status(200).json({ message: "Added new item to cart" });
+      }
+    } else {
+      await collection.insertOne({
+        user: parsedUser,
+        cart: [{ id, item, type, price, quantity }],
+      });
+      return res
+        .status(200)
+        .json({ message: "Created new cart for user and added item" });
+    }
 
     // const payload = {
     //   $setOnInsert: {
@@ -172,7 +178,6 @@ app.post("/additem", async (req, res) => {
     // else {
     //     res.status(200).json({message: "No changes made."})
     // };
-
   } catch (error) {
     console.error("Error adding item to cart:", error);
     res.status(500).json({ message: "Error adding item to cart" });
@@ -180,15 +185,16 @@ app.post("/additem", async (req, res) => {
 });
 
 app.get("/cart/:user", async (req, res) => {
-    const {user} = req.params;
+  const { user } = req.params;
   try {
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
     const collection = db.collection("carts");
-    const cart = await collection.find({ "user.username": user.trim() }).toArray();
-    console.log(cart)
+    const cart = await collection
+      .find({ "user.username": user.trim() })
+      .toArray();
+    console.log(cart);
     res.json(cart);
-    
   } catch (error) {
     console.error("Error adding item to cart:", error);
     res.status(500).json({ message: "Error adding item to cart" });
@@ -197,4 +203,36 @@ app.get("/cart/:user", async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+app.post("/update-cart", async (req, res) => {
+  try {
+    const { user, id, quantity } = req.body;
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("carts");
+
+    const parsedUser = JSON.parse(user);
+
+    const filter = { "user.username": parsedUser.username };
+    const update = {
+      $set: { "cart.$[elem].quantity": quantity },
+    };
+
+    const options = {
+      arrayFilters: [{ "elem.id": id }],
+    };
+
+    const result = await collection.updateOne(filter, update, options);
+
+    if (result.modifiedCount > 0) {
+      res.status(200).json({ message: "Updated quantity successfully" });
+    } else {
+      res.status(400).json({ message: "Failed to update quantity" });
+    }
+  } catch (error) {
+    console.error("Error updating cart item quantity:", error);
+    res.status(500).json({ message: "Error updating quantity" });
+  }
 });

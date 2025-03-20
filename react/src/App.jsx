@@ -81,7 +81,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route
           path="/cart"
-          element={<Cart cartItems={cartItems} setCartItem={setCartItems} />}
+          element={<Cart cartItems={cartItems} setCartItems={setCartItems} />}
         />
       </Routes>
     </Router>
