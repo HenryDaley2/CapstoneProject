@@ -114,16 +114,16 @@ app.post("/additem", async (req, res) => {
 
     const client = await MongoClient.connect(url);
     const db = client.db(dbName);
-    const col = db.collection("carts");
+    const collection = db.collection("carts");
 
     const filter = {
-        user: user,
+        user: JSON.parse(user),
         "cart.id": id
     };
 
     const payload = {
       $setOnInsert: {
-        user: user,
+        user: JSON.parse(user),
         "cart.id": id,
         "cart.item": item,
         "cart.type": type,
@@ -134,7 +134,7 @@ app.post("/additem", async (req, res) => {
 
     const options = {upsert: true};
 
-    const result = await col.updateOne(filter, payload, options)
+    const result = await collection.updateOne(filter, payload, options)
 
     if (result.upsertedCount > 0){
         res.status(200).json({ message: "Added new user to carts. Successfully added new item to cart." });
@@ -146,6 +146,21 @@ app.post("/additem", async (req, res) => {
         res.status(200).json({message: "No changes made."})
     };
 
+  } catch (error) {
+    console.error("Error adding item to cart:", error);
+    res.status(500).json({ message: "Error adding item to cart" });
+  }
+});
+
+app.get("/cart/:user", async (req, res) => {
+    const {user} = req.params;
+  try {
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("carts");
+    const cart = await collection.find({ "user.username": user.trim() }).toArray();
+    res.json(cart);
+    
   } catch (error) {
     console.error("Error adding item to cart:", error);
     res.status(500).json({ message: "Error adding item to cart" });
