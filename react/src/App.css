@@ -326,6 +326,16 @@ body {
 .add-to-cart:hover {
   background-color: #f39c12;
 }
+/* Product Image Styling */
+.product-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: block;
+}
+
 
 /* ========== RESPONSIVE DESIGN ========== */
 @media (max-width: 900px) {

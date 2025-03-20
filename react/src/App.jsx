@@ -8,36 +8,64 @@ import React, { useState, useEffect } from "react";
 import ProductDisplay from "./components/ProductDisplay";
 import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
-import Cart from "./components/Cart"
+import Cart from "./components/Cart";
 
 const App = () => {
-    const [data, setData] = useState([]);
-    const [filterProducts, setFilterProducts] = useState([]);
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const response = await fetch(import.meta.env.VITE_PRODUCTS_API_URL);
-          if (!response.ok) {
-            throw new Error("Data could not be fetched!");
-          }
-          const json_response = await response.json();
-          setData(json_response); // assign JSON response to the data variable.
-          setFilterProducts(json_response);
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
+  const [cartItems, setCartItems] = useState([]);
+  useEffect(() => {
+    async function getCart() {
+      // let url = `${import.meta.env.VITE_PRODUCTS_API_URL}/cart/${localStorage.getItem("user")}`;
+      try {
+        let user = JSON.parse(localStorage.getItem("user"));
+        console.log("user ", user);
+        let url = `http://localhost:3000/cart/${user.username}`;
+        console.log("url: ", url);
+        const fetchCart = await fetch(url).then((res) => res.json());
+        console.log(fetchCart);
+        setCartItems(fetchCart[0].cart);
+      } catch (error) {
+        console.error("Error fetching product", error.message);
+      }
+    }
+    getCart();
+  }, []);
 
-      fetchData();
-    }, []);
+  const [data, setData] = useState([]);
+  const [filterProducts, setFilterProducts] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(import.meta.env.VITE_PRODUCTS_API_URL);
+        if (!response.ok) {
+          throw new Error("Data could not be fetched!");
+        }
+        const json_response = await response.json();
+        setData(json_response); // assign JSON response to the data variable.
+        setFilterProducts(json_response);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <Router>
-      <Navbar data={data}  />
+      <Navbar data={data} numberOfItemsInCart={cartItems.length} />
       <Routes>
-        <Route path=":id" element ={<ProductDisplay data = {data}/>} />
-        <Route path="/" element={<Home data = {data} filterProducts={filterProducts} setFilterProducts = {setFilterProducts} />} />
-        <Route path=":id" element={<ProductDisplay />} />
+        <Route path=":id" element={<ProductDisplay data={data} cartItems={cartItems} setCartItems={setCartItems} />} />
+        <Route
+          path="/"
+          element={
+            <Home
+              data={data}
+              filterProducts={filterProducts}
+              setFilterProducts={setFilterProducts}
+            />
+          }
+        />
+        
         <Route
           path="/"
           element={
@@ -51,7 +79,10 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route
+          path="/cart"
+          element={<Cart cartItems={cartItems} setCartItem={setCartItems} />}
+        />
       </Routes>
     </Router>
   );
