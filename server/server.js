@@ -260,6 +260,32 @@ app.delete("/remove-cart-item", async (req, res) => {
   }
 });
 
+app.post("/clear-cart", async (req, res) => {
+  try {
+    const { user } = req.body;
+    const parsedUser = JSON.parse(user);
+
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection("carts");
+
+    const result = await collection.updateOne(
+      { "user.username": parsedUser.username },
+      { $set: { cart: [] } }
+    );
+    console.log("testing")
+
+    if (result.modifiedCount > 0) {
+      res.status(200).json({ message: "Cart cleared successfully" });
+    } else {
+      res.status(400).json({ message: "Failed to clear cart" });
+    }
+  } catch (error) {
+    console.error("Error clearing cart:", error);
+    res.status(500).json({ message: "Error clearing cart" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });

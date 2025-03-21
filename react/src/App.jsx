@@ -9,6 +9,7 @@ import ProductDisplay from "./components/ProductDisplay";
 import CreateAccount from "./components/CreateAccount";
 import Login from "./components/Login";
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -88,6 +89,7 @@ const App = () => {
           path="/cart"
           element={<Cart cartItems={cartItems} setCartItems={setCartItems} />}
         />
+        <Route path="/checkout" element={<Checkout setCartItems={setCartItems} />} />
       </Routes>
     </Router>
   );

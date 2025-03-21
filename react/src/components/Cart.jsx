@@ -1,4 +1,5 @@
 import DisplayCartItems from "./DisplayCartItems";
+import { Link } from "react-router-dom";
 
 const Cart = (props) => {
   if (props.cartItems.length === 0) { // Check to see if carItems are properly loaded. If not, display a loading placeholder for user
@@ -67,7 +68,7 @@ const Cart = (props) => {
 
           {/* Quantity Controls */}
           <div className="quantity-controls">
-            <button onClick={() => updateQuantity(item.id, item.quantity - 1)}> 
+            <button onClick={() => updateQuantity(item.id, item.quantity - 1)}>
               -
             </button>
             <input
@@ -91,7 +92,9 @@ const Cart = (props) => {
       ))}
 
       {/* Checkout Button NO FUNCTIONALITY */}
-      <button className="checkout-btn">Checkout</button>
+      <Link to="/checkout" className="create-account-btn">
+        Checkout
+      </Link>
 
       {/* Display Grand Total */}
       <footer>Grand Total: ${total.toFixed(2)}</footer>
