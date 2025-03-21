@@ -52,9 +52,13 @@ const App = () => {
     fetchData();
   }, []);
 
+  let totalQuantity = 0;
+
+  cartItems.map((product) => totalQuantity += product.quantity )
+
   return (
     <Router>
-      <Navbar data={data} numberOfItemsInCart={cartItems.length} />
+      <Navbar data={data} numberOfItemsInCart={totalQuantity} />
       <Routes>
         {/* Create pages for each individual product for display */}
         <Route
